@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <title>Inflation and Happiness</title>
+</head>
+
+<body>
+  <div id="ui-header">
+    <h1>
+      World Happiness Index and Inflation from 2015 to 2023
+    </h1>
+
+    <div class="h2-container">
+      <label class="inflation-radio">
+        <input type="radio" name="inflation-type" checked />
+        Head Inflation
+      </label>
+      <label class="inflation-radio">
+        <input type="radio" name="inflation-type" />
+        Food Inflation
+      </label>
+      <label class="inflation-radio">
+        <input type="radio" name="inflation-type" />
+        Energy Inflation
+      </label>
+    </div>
+
+    <div id="continent-toggle-wrapper">
+      <input type="hidden" id="continent-toggle-value" value="Europe">
+      <div id="continent-toggle" class="continent-toggle-container">
+        <div class="continent-segment" data-continent="Europe">Europe</div>
+        <div class="continent-segment" data-continent="Asia">Asia</div>
+        <div class="continent-segment" data-continent="Africa">Africa</div>
+        <div class="continent-segment" data-continent="America">America</div>
+      </div>
+    </div>
+
+    <div class="toggle-wrapper">
+      <input type="checkbox" id="toggle" class="toggleCheckbox" />
+      <label for="toggle" class="toggleContainer">
+        <div>Global View</div>
+        <div>Continent View</div>
+      </label>
+    </div>
+  </div>
+
+  <div class="color-slider-wrapper" id="color-slider-wrapper">
+    <div class="color-slider-track" id="color-slider-track">
+      <div id="left-overlay" class="slider-overlay left-overlay"></div>
+      <div id="right-overlay" class="slider-overlay right-overlay"></div>
+      <div id="range-handle-min" class="color-slider-handle"></div>
+      <div id="range-handle-max" class="color-slider-handle"></div>
+    </div>
+  </div>
+
+  <div id="renderer-container">
+    <div id="renderer"></div>
+  </div>
+
+  <script src="./lib/gmynd.js"></script>
+  <script src="./lib/chroma.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

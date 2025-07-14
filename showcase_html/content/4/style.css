@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(18, 6, 14);
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#renderer-container {
+  flex: 1 1 auto;
+  position: relative;
+  background-color: rgb(18, 6, 14);
+  overflow: hidden;
+  z-index: 1001;
+  /* Über dem Header */
+}
+
+#renderer {
+  position: absolute;
+  top: calc(80px + 2em);
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  height: calc(100% - 150px);
+  z-index: 1001;
+}
+
+.tooltip,
+.tooltip * {
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.tooltip {
+  position: absolute;
+  min-width: 180px;
+  max-width: 260px;
+  padding: 12px 18px;
+  background: rgba(30, 30, 30, 0.97);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  z-index: 2000;
+  font-size: 13px;
+  line-height: 1.6;
+  pointer-events: none;
+  display: none;
+}
+
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 2px;
+}
+
+.tooltip .tooltip-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.tooltip .tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.tooltip .tooltip-label {
+  font-weight: normal;
+  color: #000;
+  margin-right: 10px;
+}
+
+.tooltip .tooltip-value {
+  font-weight: normal;
+  color: #555;
+  text-align: right;
+  font-family: 'Space Mono', monospace;
+}
+
+#ui-header h1 {
+  font-size: 25px;
+  margin: 30px 0 0 30px;
+  color: white;
+}
+
+.h2-container {
+  position: absolute;
+  top: 43px;
+  right: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+  z-index: 1002;
+}
+
+.toggle-wrapper {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  z-index: 1002;
+}
+
+.toggleCheckbox {
+  display: none;
+}
+
+.toggleContainer {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggleContainer div {
+  position: relative;
+  z-index: 2;
+  transition: color 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.toggleCheckbox:not(:checked)+.toggleContainer div:first-child {
+  color: white;
+}
+
+.toggleCheckbox:not(:checked)+.toggleContainer div:last-child {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toggleCheckbox:checked+.toggleContainer div:first-child {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toggleCheckbox:checked+.toggleContainer div:last-child {
+  color: white;
+}
+
+.toggleContainer::after {
+  display: none !important;
+  content: none !important;
+}
+
+.toggleCheckbox:not(:checked)+.toggleContainer::after {
+  left: 0;
+  width: calc(100% / 2 - 10px);
+  /* Global View */
+  transform: translateX(0%);
+}
+
+.toggleCheckbox:checked+.toggleContainer::after {
+  left: 50%;
+  width: calc(100% / 2 - 10px);
+  /* Continent View */
+  transform: translateX(0%);
+}
+
+#continent-buttons {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 1002;
+  /* Über dem Renderer */
+}
+
+#continent-buttons h2 {
+  font-size: 4px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-weight: normal;
+  background: none;
+  border: none;
+  padding: 0;
+  transition: color 0.3s;
+}
+
+#continent-buttons h2:hover,
+#continent-buttons h2.active {
+  color: white;
+}
+
+#continent-toggle-wrapper {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  z-index: 1002;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#continent-toggle-wrapper.visible {
+  transform: translateX(-50%) translateY(0);
+}
+
+.continent-toggle-container {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  background: transparent;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  text-transform: none;
+  font-size: 12px;
+  border: none;
+}
+
+.continent-toggle-container div {
+  position: relative;
+  z-index: 2;
+  transition: color 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.continent-toggle-container div.active {
+  color: white;
+}
+
+.dot {
+  box-sizing: border-box;
+}
+
+.inflation-radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-weight: normal;
+  background: none;
+  border: none;
+  padding: 0;
+  transition: color 0.3s;
+  position: relative;
+  user-select: none;
+}
+
+.inflation-radio.active,
+.inflation-radio input:checked {
+  color: white;
+}
+
+.inflation-radio input {
+  display: none;
+}
+
+#color-slider-wrapper {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  width: 300px;
+  height: 22px;
+  z-index: 1002;
+}
+
+.color-slider-track {
+  position: relative;
+  width: 100%;
+  height: 14px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #05E0E9, #22CDE3, #40BADD, #5EA7D7, #7C94D1, #9A81CB, #B86EC5, #FF2768);
+}
+
+.slider-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.left-overlay {
+  left: 0;
+  margin-right: -6px;
+}
+
+.right-overlay {
+  right: 0;
+  margin-left: -6px;
+}
+
+.color-slider-handle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 22px;
+  background: white;
+  border: none;
+  border-radius: 1.5px;
+  cursor: grab;
+  z-index: 10;
+}
+
+.color-slider-range {
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  z-index: 3;
+  border-radius: 10px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.color-slider-range-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #05E0E9, #FF2768);
+  z-index: 2;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.underline {
+  display: none !important;
+}
+
+.toggleContainer::after {
+  display: none !important;
+  content: none !important;
+}
+
+.toggleContainer div {
+  text-decoration: none !important;
+}
+
+.h2-container h2,
+.h2-container h2.active {
+  text-decoration: none !important;
+}
+
+.h2-container .inflation-radio {
+  font-size: 12px;
+}
+
+.rotation-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform: rotate(-135deg);
+}
