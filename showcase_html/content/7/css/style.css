@@ -1,0 +1,1004 @@
+/* Wird CSS mit einem Stern selektriert, wird der Style auf alle HTML-Elemente angewendet */
+* {
+    /* box-sizing: border-box
+    
+    tatsächliche Größe inklusive Ränder,etc 
+    "Wenn Sie die Breite eines Elements auf 100 Pixel festlegen, werden diese 100 Pixel alle von Ihnen hinzugefügten Ränder oder Füllungen enthalten, und das Inhaltsfeld wird verkleinert, um diese zusätzliche Breite zu absorbieren. Dadurch wird die Größenanpassung von Elementen normalerweise viel einfacher." 
+    *** Link: https://developer.mozilla.org/de/docs/Web/CSS/box-sizing ***
+    */
+    box-sizing: border-box; 
+
+    /* Ich setze gerne für alle Elemente padding und margin auf 0, weil ich Abstände selbst definieren will.
+    - Margin: Wird zum Positionieren von Elemente genutzt und ist der Abstand nach außen.
+        - Styles wie eine Hintergrundfarbe wird hier nicht angewendet, weil der Abstand außerhalb vom Element liegt.
+    - Padding: Das ist der Abstand innerhalb vom Element, der Zwischenraum vom Inhalt und der Elementgrenze.
+        - Damit kann man z. B. einen Button vergrößern, die Hintergrundfarbe wird auch im Padding verwendet.
+
+    *** Link: https://www.mediaevent.de/css/margin.html ***
+    */
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif; /* Globale Schriftart für alle Elemente */
+}
+
+/* HTML-Tags können direkt per Name selektiert werden: body, div, p, etc. */
+body {
+    background-color: #000000;
+    color:white;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* IDs können mit einer Raute selektiert werden. */
+#renderer {
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+
+    /* Wenn in einem Container absolute Elemente stecken, muss der "parent"-Container relativ definiert sein, dann wird das Koordinatensystem vom "parent" genutzt.
+    Hier hat z. B. der Renderer-Container ein margin von 5px. Somit beginnt das Balkendiagramm erst bei 5px (x- und y-Position)
+    */
+    position: relative;
+    
+    /* Diagramm-Skalierung für kompaktere Darstellung */
+    transform: scale(0.8);
+    transform-origin: center center;
+    overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%; /* Macht die Elemente rund */
+  /* background-color wird durch JavaScript gesetzt */
+  opacity: 0.8; /* Optional: Transparenz */
+}
+
+/* Switch Button */
+.switch-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+  cursor: pointer;
+  z-index: 10;
+  background: linear-gradient(135deg, rgba(50, 50, 50, 0.8), rgba(30, 30, 30, 0.9));
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+  position: relative;
+}
+
+.switch-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.switch-button:hover {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.9), 
+    rgba(240, 248, 255, 0.85)
+  );
+  color: #1a1a1a;
+  transform: translateY(-4px) scale(1.02);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 8px rgba(100, 150, 255, 0.6);
+  box-shadow: 
+    0 8px 25px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(100, 150, 255, 0.4),
+    inset 0 0 15px rgba(255, 255, 255, 0.2);
+  animation: switchGlow 1.5s ease-in-out infinite;
+}
+
+.switch-button:hover::before {
+  left: 100%;
+}
+
+.switch-button:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: all 0.1s ease;
+}
+
+@keyframes switchGlow {
+  0%, 100% { 
+    box-shadow: 
+      0 8px 25px rgba(0, 0, 0, 0.6),
+      0 0 20px rgba(100, 150, 255, 0.4),
+      inset 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  50% { 
+    box-shadow: 
+      0 12px 35px rgba(0, 0, 0, 0.7),
+      0 0 35px rgba(100, 150, 255, 0.6),
+      inset 0 0 25px rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* Sort Button */
+.sort-button {
+  padding: 8px 16px;
+  font-size: 12px;
+  font-family: 'Kumbh Sans', sans-serif;
+  cursor: pointer;
+  z-index: 10;
+  background: linear-gradient(135deg, rgba(230, 211, 255, 0.3), rgba(100, 150, 255, 0.2));
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(100, 150, 255, 0.3);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+  position: relative;
+}
+
+.sort-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.6s ease;
+}
+
+.sort-button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    transparent, 
+    rgba(100, 150, 255, 0.3), 
+    rgba(255, 100, 255, 0.3), 
+    rgba(100, 255, 150, 0.3), 
+    transparent
+  );
+  opacity: 0;
+  animation: rotate 3s linear infinite;
+  transition: opacity 0.3s ease;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: translateY(-6px) scale(1.03); }
+  50% { transform: translateY(-8px) scale(1.05); }
+}
+
+@keyframes glow {
+  0%, 100% { 
+    box-shadow: 
+      0 15px 35px rgba(0, 0, 0, 0.7),
+      0 0 30px rgba(100, 150, 255, 0.6),
+      0 0 60px rgba(255, 100, 255, 0.4),
+      inset 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  50% { 
+    box-shadow: 
+      0 20px 45px rgba(0, 0, 0, 0.8),
+      0 0 50px rgba(100, 150, 255, 0.8),
+      0 0 100px rgba(255, 100, 255, 0.6),
+      inset 0 0 30px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.sort-button:hover {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.95), 
+    rgba(240, 240, 255, 0.9),
+    rgba(255, 240, 255, 0.85)
+  );
+  color: #1a1a1a;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 10px rgba(100, 150, 255, 0.8);
+}
+
+.sort-button:hover::before {
+  left: 100%;
+}
+
+.sort-button:active {
+  transform: translateY(-4px) scale(0.98);
+  transition: all 0.1s ease;
+  animation: none;
+}
+
+/* World Map Button */
+.world-map-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+  cursor: pointer;
+  z-index: 15;
+  background: linear-gradient(135deg, rgba(255, 140, 60, 0.15), rgba(255, 120, 40, 0.2));
+  color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 165, 100, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 165, 100, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+}
+
+.world-map-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 165, 100, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.world-map-button:hover {
+  background: linear-gradient(135deg, 
+    rgba(255, 165, 100, 0.3), 
+    rgba(255, 140, 60, 0.35)
+  );
+  color: rgba(255, 255, 255, 1);
+  transform: translateY(-2px) scale(1.01);
+  border: 2px solid rgba(255, 165, 100, 0.4);
+  text-shadow: 0 0 6px rgba(255, 140, 60, 0.3);
+  box-shadow: 
+    0 6px 20px rgba(0, 0, 0, 0.4),
+    0 0 15px rgba(255, 140, 60, 0.2),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+  animation: worldMapGlow 1.5s ease-in-out infinite;
+}
+
+.world-map-button:hover::before {
+  left: 100%;
+}
+
+.world-map-button:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: all 0.1s ease;
+}
+
+@keyframes worldMapGlow {
+  0%, 100% { 
+    box-shadow: 
+      0 6px 20px rgba(0, 0, 0, 0.4),
+      0 0 15px rgba(255, 140, 60, 0.2),
+      inset 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% { 
+    box-shadow: 
+      0 8px 25px rgba(0, 0, 0, 0.5),
+      0 0 20px rgba(255, 140, 60, 0.3),
+      inset 0 0 15px rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* Back Button */
+.back-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+  cursor: pointer;
+  z-index: 15;
+  background: linear-gradient(135deg, rgba(255, 140, 60, 0.15), rgba(255, 120, 40, 0.2));
+  color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 165, 100, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 165, 100, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+  display: none;
+}
+
+.back-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 165, 100, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.back-button:hover {
+  background: linear-gradient(135deg, 
+    rgba(255, 165, 100, 0.3), 
+    rgba(255, 140, 60, 0.35)
+  );
+  color: rgba(255, 255, 255, 1);
+  transform: translateY(-2px) scale(1.01);
+  border: 2px solid rgba(255, 165, 100, 0.4);
+  text-shadow: 0 0 6px rgba(255, 140, 60, 0.3);
+  box-shadow: 
+    0 6px 20px rgba(0, 0, 0, 0.4),
+    0 0 15px rgba(255, 140, 60, 0.2),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+  animation: backGlow 1.5s ease-in-out infinite;
+}
+
+.back-button:hover::before {
+  left: 100%;
+}
+
+.back-button:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: all 0.1s ease;
+}
+
+@keyframes backGlow {
+  0%, 100% { 
+    box-shadow: 
+      0 6px 20px rgba(0, 0, 0, 0.4),
+      0 0 15px rgba(255, 140, 60, 0.2),
+      inset 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% { 
+    box-shadow: 
+      0 8px 25px rgba(0, 0, 0, 0.5),
+      0 0 20px rgba(255, 140, 60, 0.3),
+      inset 0 0 15px rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* Timeline Sort Button (NICHT MEHR VERWENDET - Switch Button verwendet .switch-button) */
+/*
+.timeline-sort-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-family: 'Kumbh Sans', sans-serif;
+  cursor: pointer;
+  z-index: 10;
+  background: linear-gradient(135deg, rgba(80, 60, 120, 0.7), rgba(60, 40, 100, 0.8));
+  color: white;
+  border: 2px solid rgba(160, 120, 255, 0.4);
+  border-radius: 10px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(160, 120, 255, 0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+  position: relative;
+}
+
+.timeline-sort-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.timeline-sort-button:hover {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.9), 
+    rgba(248, 240, 255, 0.85)
+  );
+  color: #2a1a1a;
+  transform: translateY(-4px) scale(1.02);
+  border: 2px solid rgba(160, 120, 255, 0.8);
+  text-shadow: 0 0 8px rgba(160, 120, 255, 0.6);
+  box-shadow: 
+    0 8px 25px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(160, 120, 255, 0.5),
+    inset 0 0 15px rgba(255, 255, 255, 0.2);
+  animation: timelineGlow 1.8s ease-in-out infinite;
+}
+
+.timeline-sort-button:hover::before {
+  left: 100%;
+}
+
+.timeline-sort-button:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: all 0.1s ease;
+}
+
+@keyframes timelineGlow {
+  0%, 100% { 
+    box-shadow: 
+      0 8px 25px rgba(0, 0, 0, 0.5),
+      0 0 20px rgba(160, 120, 255, 0.5),
+      inset 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  50% { 
+    box-shadow: 
+      0 12px 35px rgba(0, 0, 0, 0.6),
+      0 0 35px rgba(160, 120, 255, 0.7),
+      inset 0 0 25px rgba(255, 255, 255, 0.3);
+  }
+}
+*/
+
+/* Grid Layout */
+.grid-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.grid-line-vertical {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid-line-horizontal {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid-label {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: light;
+}
+
+/* Chart Axes */
+.x-axis {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  bottom: 0;
+}
+
+.y-axis {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: black;
+  left: 0;
+}
+
+.axis-label {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: light;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.axis-label-minor {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Kategorien-Labels */
+.category-label {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.axis-title {
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Title */
+.main-title {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Kumbh Sans', sans-serif;
+  z-index: 10;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Volcano Marker */
+.volcano-marker {
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.volcano-marker:hover {
+  transform: scale(2);
+  z-index: 1000;
+}
+
+/* Slider Container */
+.slider-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background: rgba(60, 60, 60, 0.8);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+  z-index: 10;
+  min-width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect removed - slider container stays the same when hovered */
+
+.slider-label {
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.slider {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(30, 30, 30, 0.8), rgba(20, 20, 20, 0.9));
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.slider:hover {
+  background: linear-gradient(90deg, rgba(40, 40, 40, 0.9), rgba(30, 30, 30, 1));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(100, 150, 255, 0.3);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(50, 50, 50, 0.9), rgba(30, 30, 30, 1));
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  box-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(70, 70, 70, 1), rgba(50, 50, 50, 1));
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 
+    0 3px 8px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(255, 255, 255, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.slider::-webkit-slider-thumb:active {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.4),
+    0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(50, 50, 50, 0.9), rgba(30, 30, 30, 1));
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  box-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.slider::-moz-range-thumb:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(70, 70, 70, 1), rgba(50, 50, 50, 1));
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 
+    0 3px 8px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.slider::-moz-range-thumb:active {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.4),
+    0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Tooltip */
+.hover-tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 9999;
+  display: none;
+  max-width: 280px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  line-height: 1.4;
+}
+
+/* Stats Container */
+.stats-container {
+  position: absolute;
+  bottom: 110px;
+  right: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+/* Legend */
+.legend {
+  position: absolute;
+  bottom: 110px;
+  left: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+/* Chart Container */
+.chart-container {
+  position: absolute;
+}
+
+/* Bar Chart */
+.bar {
+  position: absolute;
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bar:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Timeline Elements */
+.year-label {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+}
+
+.year-point {
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circle-timeline {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Grid Toggle Button */
+.grid-toggle-button {
+  position: absolute;
+  top: 110px;
+  right: 10px;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 10;
+  background-color: rgba(230, 211, 255, 0.3);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.grid-toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.grid-toggle-button.active {
+  background-color: rgba(160, 90, 44, 0.4);
+}
+
+/* Search functionality styling */
+.search-container {
+  font-family: 'Kumbh Sans', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.search-container input {
+  font-family: 'Kumbh Sans', sans-serif;
+  outline: none;
+  border: none;
+}
+
+.search-container input:focus {
+  outline: none;
+  border: none;
+}
+
+.search-container input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-results {
+  font-family: 'Kumbh Sans', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.search-results::-webkit-scrollbar {
+  width: 6px;
+}
+
+.search-results::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Continent filter styling */
+.regions-filter-container {
+  background: transparent !important;
+  border: none !important;
+  backdrop-filter: none;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.regions-filter-container .filter-title {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.continent-checkboxes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.continent-checkbox-container {
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  min-height: 32px;
+}
+
+.continent-checkbox-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.continent-checkbox-container input[type="checkbox"] {
+  margin: 0;
+  margin-right: 6px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: transparent;
+  position: relative;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.continent-checkbox-container input[type="checkbox"]:checked {
+  background-color: white;
+  border-color: white;
+}
+
+.continent-checkbox-container input[type="checkbox"]:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.continent-checkbox-container input[type="checkbox"]:hover {
+  border-color: white;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.continent-checkbox-container label {
+  color: white !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  flex: 1;
+  line-height: 1.2;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.continent-checkbox-container .region-count {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 8px !important;
+  font-weight: 400 !important;
+  margin-left: 4px;
+  display: block;
+}
+
+.continent-checkbox-container.active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.select-all-container {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.select-all-button {
+  background: linear-gradient(135deg, #b8956d, #a68559) !important;
+  color: white !important;
+  border: none !important;
+  padding: 6px 12px !important;
+  border-radius: 6px !important;
+  font-size: 9px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  transition: all 0.2s ease !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'Kumbh Sans', sans-serif !important;
+}
+
+.select-all-button:hover {
+  background: linear-gradient(135deg, #a68559, #947545) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(184, 149, 109, 0.3);
+}
+
+.select-all-button:active {
+  transform: translateY(0);
+}
+
+/* Custom scrollbar for filter container */
+.regions-filter-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.regions-filter-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.regions-filter-container::-webkit-scrollbar-thumb {
+  background: rgba(100, 150, 255, 0.6);
+  border-radius: 3px;
+}
+
+.regions-filter-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 150, 255, 0.8);
+}
+

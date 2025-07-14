@@ -1,0 +1,534 @@
+body {
+  margin: 0;
+  background: #111;
+  overflow: hidden;
+}
+
+#heatmap {
+  position: relative;
+  width: 1512px;
+  height: 945px;
+  background: #000;
+  cursor: crosshair;
+}
+
+.heatmap-point {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 0px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 1000;
+  font-family: "Host Grotesk", sans-serif;
+  font-weight: 400;
+}
+
+.legend {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.legend h1 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.legend-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid;
+}
+
+.legend-circle.yellow {
+  background: rgba(111, 0, 255, 0.3);
+  border-color: rgba(111, 0, 255, 0.3);
+}
+
+.legend-circle.orange {
+  background: rgba(0, 47, 255, 0.5);
+  border-color: rgba(0, 47, 255, 0.5);
+  margin-left: 20px;
+}
+
+.legend-circle.red {
+  background: rgba(0, 166, 255, 0.8);
+  border-color: rgba(0, 166, 255, 0.8);
+  margin-left: 20px;
+}
+
+.legend-circle.disabled {
+  background: black;
+}
+
+
+#switch-heatmap-btn:hover {
+  background-color: #555;
+}
+
+body > h1 {
+  position: absolute;
+  top: 8px;
+  left: 235px;
+  transform: translateX(-50%);
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 28px;
+  left: 8px;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+#country-menu {
+  width: 250px;
+  background: transparent;
+  padding: 0;
+}
+
+#country-menu h2 {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+}
+
+#country-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#country-menu li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#country-menu .country-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #888;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+#country-menu .country-btn.active {
+  background: #fff;
+  border-color: #fff;
+}
+
+.country-circle-diagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(0, 166, 255, 0.2);
+  border: 2px solid rgba(0, 166, 255, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  white-space: pre-wrap;
+  transition: all 0.3s ease;
+}
+
+.country-circle-diagram:hover {
+  background: rgba(0, 166, 255, 0.4);
+  border-color: rgba(0, 166, 255, 1);
+}
+
+.target-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(255, 87, 34, 0.2);
+  border: 2px solid rgba(255, 87, 34, 0.8);
+  position: absolute;
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.target-circle:hover {
+  background: rgba(255, 87, 34, 0.4);
+  border-color: rgba(255, 87, 34, 1);
+}
+
+.fixed-hover-text {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 4px;
+  position: fixed;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  white-space: pre;
+  pointer-events: none;
+  font-size: 16px;
+  min-width: 200px;
+  text-align: left;
+  z-index: 1000;
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+  line-height: 1.5;
+}
+
+.fixed-hover-text.visible {
+  display: block;
+}
+
+.bar-chart-container {
+  display: flex;
+  width: 1512px;
+  height: 945px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+  padding: 95px 227px 0 227px;
+  box-sizing: border-box;
+}
+
+.country-bar {
+  background-color: hsl(230, 95%, 40%);
+  height: 756px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 0px 0 0 0px;
+  transition: filter 0.2s, background 0.2s;
+}
+    
+.country-bar-label {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10px;
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.country-bar-label .country-bar-name {
+  flex: none;
+  text-align: left;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
+  transform: scale(1);
+  transform-origin: left bottom;
+  transition: font-size 0.2s, font-weight 0.2s, transform 0.2s;
+  padding: 0 1px 0 0;
+  color: inherit;
+  font-family: inherit;
+}
+
+.country-bar-label .country-bar-count {
+  flex: none;
+  text-align: left;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
+  transform: scale(1);
+  transform-origin: left bottom;
+  transition: font-size 0.2s, font-weight 0.2s, transform 0.2s;
+  padding: 0 0 0 3px;
+  font-size: 10px;
+  color: inherit;
+  font-family: inherit;
+}
+
+.country-bar-label.hover-left .country-bar-name {
+  transform: scale(1.2);
+  font-weight: 700;
+  z-index: 2;
+}
+
+.country-bar-label.hover-right .country-bar-count {
+  transform: scale(1.2);
+  font-weight: 700;
+  z-index: 2;
+}
+
+.country-bar:hover .country-bar-label {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.country-bar:hover,
+.custom-country-bar:hover {
+  filter: brightness(1.5) saturate(1.5);
+  background: hsl(230, 95%, 60%);
+}
+
+.targets-container {
+  display: flex;
+  flex-direction: column;
+  width: 1058px;
+  height: 756px;
+  border-radius: 0 0px 0px 0;
+  overflow: hidden;
+}
+
+.target-bar {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  /* Die Farbe wird weiterhin im JS gesetzt, da sie dynamisch ist */
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: white;
+  font-family: "Host Grotesk", sans-serif;
+  overflow: visible;
+}
+
+.target-bar-country,
+.target-bar-count {
+  opacity: 0;
+}
+.target-bar:hover .target-bar-country,
+.target-bar:hover .target-bar-count,
+.target-bar.hover-left .target-bar-country,
+.target-bar.hover-right .target-bar-count {
+  opacity: 1;
+}
+
+.target-bar-country {
+  flex: 1 1 50%;
+  text-align: left;
+  font-size: clamp(12px, 0.7em + 2vw, 32px);
+  padding-left: 10px;
+  transition: font-size 0.2s cubic-bezier(.4,2,.6,1), font-weight 0.2s, transform 0.2s cubic-bezier(.4,2,.6,1);
+  z-index: 1;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
+  position: absolute;
+  left: 0px;
+  bottom: 0.1em;
+  pointer-events: none;
+  transform: scale(1);
+  transform-origin: left bottom;
+}
+
+.target-bar-count {
+  flex: 1 1 50%;
+  text-align: right;
+  font-size: clamp(12px, 0.7em + 2vw, 32px);
+  padding-right: 10px;
+  transition: font-size 0.2s cubic-bezier(.4,2,.6,1), font-weight 0.2s, transform 0.2s cubic-bezier(.4,2,.6,1);
+  z-index: 1;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
+  position: absolute;
+  right: 0px;
+  bottom: 0.1em;
+  pointer-events: none;
+  transform: scale(1);
+  transform-origin: right bottom;
+}
+
+.target-bar-hover-left, .target-bar-hover-right {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 50%;
+  z-index: 2;
+}
+.target-bar-hover-left { left: 0; cursor: pointer; }
+.target-bar-hover-right { right: 0; cursor: pointer; }
+
+.target-bar.hover-left .target-bar-country {
+  transform: scale(1.2);
+  font-weight: 700;
+  z-index: 2;
+}
+.target-bar.hover-right .target-bar-count {
+  transform: scale(1.2);
+  font-weight: 700;
+  z-index: 2;
+}
+
+.target-bar:hover {
+  filter: brightness(1.25) saturate(1.25);
+}
+
+.target-bar .target-bar-label {
+  font-size: 22px;
+  padding-left: 24px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.target-bar:hover .target-bar-label {
+  opacity: 1;
+}
+
+/* --- Custom Bar Chart Layout für JS --- */
+.custom-country-container {
+  flex: 1 1 0;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: rgba(0,0,0,0.1);
+  border-radius: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  height: 90vh;
+  max-width: none;
+  transition: flex-grow 0.3s ease-in-out, box-shadow 0.2s;
+  overflow: visible;
+}
+
+.custom-country-container:hover {
+  flex-grow: 1.5;
+  z-index: 2;
+}
+
+.custom-targets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: calc(100% - 80px);
+  gap: 0;
+  overflow: visible;
+}
+
+.custom-country-bar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  background: hsl(230, 95%, 55%);
+  margin: 0;
+  transition: filter 0.2s, background 0.2s;
+}
+
+.custom-target-bar {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  /* Die Farbe wird weiterhin im JS gesetzt, da sie dynamisch ist */
+}
+
+/* Container für alle Länder nebeneinander (allCountriesContainer) */
+#heatmap > div {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  padding: 0 !important;
+  gap: 0 !important;
+  margin: 0 !important;
+  justify-content: flex-start !important;
+  overflow: visible;
+}
+
+.legend-text.clickable {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.legend-text.disabled {
+  opacity: 0.5;
+}
+
+#screen-switcher {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 28px;
+  border-radius: 6px;
+  padding: 4px 18px 0 18px;
+  z-index: 1001;
+  font-family: "Host Grotesk", sans-serif;
+}
+.screen-switch {
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s, font-weight 0.2s;
+  font-weight: 400;
+  user-select: none;
+}
+.screen-switch.active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.target-bar.selected {
+  z-index: 3;
+}
+
+.screen-switch:hover,
+.legend-text.clickable:hover {
+  font-weight: 800;
+}
+
+body > h1, h2, span, .legend-text, .screen-switch, .tooltip, .country-bar-label, .country-bar-name, .country-bar-count, .target-bar-country, .target-bar-count, #legend-weight, #legend-attacks, #country-menu h2, #country-list, .fixed-hover-text, .target-bar-label {
+  color: transparent !important;
+  visibility: hidden !important;
+}
+
+#country-menu h2, #country-list, .fixed-hover-text, .tooltip, .legend-row, .legend-text, .screen-switch, .country-bar-label, .country-bar-name, .country-bar-count, .target-bar-country, .target-bar-count, .target-bar-label {
+  display: none !important;
+}

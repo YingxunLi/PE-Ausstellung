@@ -1,0 +1,5225 @@
+export const data = [
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 22,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 20,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 20,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 20,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 21,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 22,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 20,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 20,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 21,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 21,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 20,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 20,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 20,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 15,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 16,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 16,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 20,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 5
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 4
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 17,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 2
+    },
+    {
+        "sex": "F",
+        "age": 19,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "F",
+        "age": 18,
+        "AlcoholConsumption": 1
+    },
+    {
+        "sex": "M",
+        "age": 17,
+        "AlcoholConsumption": 3
+    },
+    {
+        "sex": "M",
+        "age": 18,
+        "AlcoholConsumption": 3
+    }
+
+];
+
+

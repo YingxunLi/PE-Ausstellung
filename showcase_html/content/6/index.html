@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Schachmuster</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Schachmuster</h1>
+  <h2 class="subtitle">Interaktive Lichess-Datengrafik</h2>
+
+  <div id="toolbar">
+    <button id="toggle-mode">Schlagzüge anzeigen</button>
+    <button id="reset-button">Zurücksetzen</button>
+    <button id="back-button">Zurück</button>
+  </div>
+
+  <div id="figure-toolbar">
+    <button class="figure-button" data-figure="P">B</button>
+    <button class="figure-button" data-figure="N">S</button>
+    <button class="figure-button" data-figure="B">L</button>
+    <button class="figure-button" data-figure="R">T</button>
+    <button class="figure-button" data-figure="Q">D</button>
+    <button class="figure-button" data-figure="K">K</button>
+  </div>
+
+  <div class="main-content-row">
+    <div id="move-sequence-headline" class="move-sequence-headline"></div>
+    <div id="wrapper">
+      <div id="board"></div>
+      <div id="result-panel">
+        <div id="result-bar">
+          <div id="bar-black"></div>
+          <div id="bar-draw"></div>
+          <div id="bar-white"></div>
+        </div>
+        <!-- <div class="labels">
+          <span>Weiß</span>
+          <span>Remis</span>
+          <span>Schwarz</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

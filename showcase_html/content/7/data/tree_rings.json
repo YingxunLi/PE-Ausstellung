@@ -1,0 +1,11262 @@
+[
+  {
+    "year": 2000,
+    "n_tree": 1.1,
+    "europe_temp_index": 0.85
+  },
+  {
+    "year": 1999,
+    "n_tree": 0.39,
+    "europe_temp_index": 0.79
+  },
+  {
+    "year": 1998,
+    "n_tree": 1.13,
+    "europe_temp_index": 0.72
+  },
+  {
+    "year": 1997,
+    "n_tree": 0.97,
+    "europe_temp_index": 0.87
+  },
+  {
+    "year": 1996,
+    "n_tree": 1.07,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 1995,
+    "n_tree": 0.6,
+    "europe_temp_index": 0.49
+  },
+  {
+    "year": 1994,
+    "n_tree": 1.84,
+    "europe_temp_index": 1.32
+  },
+  {
+    "year": 1993,
+    "n_tree": 0.53,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 1992,
+    "n_tree": 0.36,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 1991,
+    "n_tree": 0.79,
+    "europe_temp_index": 0.69
+  },
+  {
+    "year": 1990,
+    "n_tree": 0.87,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 1989,
+    "n_tree": 1.06,
+    "europe_temp_index": 0.43
+  },
+  {
+    "year": 1988,
+    "n_tree": 1.08,
+    "europe_temp_index": 0.5
+  },
+  {
+    "year": 1987,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 1986,
+    "n_tree": 1.1,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 1985,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1984,
+    "n_tree": 0.44,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1983,
+    "n_tree": 0.61,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 1982,
+    "n_tree": 0.63,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 1981,
+    "n_tree": -0.06,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 1980,
+    "n_tree": 0.87,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1979,
+    "n_tree": 0.49,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1978,
+    "n_tree": 0.55,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1977,
+    "n_tree": 0.32,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1976,
+    "n_tree": 0.21,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 1975,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1974,
+    "n_tree": 0.02,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1973,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1972,
+    "n_tree": 0.3,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1971,
+    "n_tree": 0.24,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 1970,
+    "n_tree": 0.64,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 1969,
+    "n_tree": 1.33,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 1968,
+    "n_tree": -0.47,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 1967,
+    "n_tree": 0.01,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1966,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 1965,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1964,
+    "n_tree": 0.2,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1963,
+    "n_tree": 0.03,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1962,
+    "n_tree": -0.55,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1961,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1960,
+    "n_tree": -0.03,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 1959,
+    "n_tree": 0.05,
+    "europe_temp_index": 0.69
+  },
+  {
+    "year": 1958,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1957,
+    "n_tree": -0.17,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1956,
+    "n_tree": 0.13,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1955,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 1954,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1953,
+    "n_tree": 0.78,
+    "europe_temp_index": 0.62
+  },
+  {
+    "year": 1952,
+    "n_tree": 0.13,
+    "europe_temp_index": 0.64
+  },
+  {
+    "year": 1951,
+    "n_tree": 0.39,
+    "europe_temp_index": 0.53
+  },
+  {
+    "year": 1950,
+    "n_tree": 0.46,
+    "europe_temp_index": 1.03
+  },
+  {
+    "year": 1949,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1948,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1947,
+    "n_tree": 0.5,
+    "europe_temp_index": 1.16
+  },
+  {
+    "year": 1946,
+    "n_tree": 0.15,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 1945,
+    "n_tree": 0.18,
+    "europe_temp_index": 0.6
+  },
+  {
+    "year": 1944,
+    "n_tree": -0.41,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 1943,
+    "n_tree": 0.24,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 1942,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1941,
+    "n_tree": -0.64,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1940,
+    "n_tree": 0.38,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1939,
+    "n_tree": 1.01,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 1938,
+    "n_tree": 1.09,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 1937,
+    "n_tree": 1.64,
+    "europe_temp_index": 0.86
+  },
+  {
+    "year": 1936,
+    "n_tree": -0.09,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 1935,
+    "n_tree": 0,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 1934,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 1933,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1932,
+    "n_tree": -0.43,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1931,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 1930,
+    "n_tree": 0.44,
+    "europe_temp_index": 0.71
+  },
+  {
+    "year": 1929,
+    "n_tree": -0.45,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1928,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1927,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 1926,
+    "n_tree": 0.07,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1925,
+    "n_tree": 0.31,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1924,
+    "n_tree": 0.42,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 1923,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1922,
+    "n_tree": 0.47,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1921,
+    "n_tree": -0.03,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 1920,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1919,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1918,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1917,
+    "n_tree": -0.48,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1916,
+    "n_tree": -1.39,
+    "europe_temp_index": -0.74
+  },
+  {
+    "year": 1915,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1914,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1913,
+    "n_tree": -1.72,
+    "europe_temp_index": -0.86
+  },
+  {
+    "year": 1912,
+    "n_tree": -1.09,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1911,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1910,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1909,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.95
+  },
+  {
+    "year": 1908,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1907,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1906,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 1905,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1904,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1903,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1902,
+    "n_tree": -1.6,
+    "europe_temp_index": -1.05
+  },
+  {
+    "year": 1901,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 1900,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1899,
+    "n_tree": -2.01,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1898,
+    "n_tree": -0.31,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 1897,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 1896,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 1895,
+    "n_tree": -0.22,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 1894,
+    "n_tree": -0.53,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1893,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1892,
+    "n_tree": -1.71,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1891,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1890,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1889,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1888,
+    "n_tree": -1.4,
+    "europe_temp_index": -0.88
+  },
+  {
+    "year": 1887,
+    "n_tree": -1,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1886,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1885,
+    "n_tree": -1.65,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1884,
+    "n_tree": -1.08,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1883,
+    "n_tree": -0.01,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 1882,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1881,
+    "n_tree": -1.56,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1880,
+    "n_tree": -1.15,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1879,
+    "n_tree": 0,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1878,
+    "n_tree": -0.31,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 1877,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 1876,
+    "n_tree": -0.38,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1875,
+    "n_tree": -0.22,
+    "europe_temp_index": 0.45
+  },
+  {
+    "year": 1874,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1873,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 1872,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1871,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1870,
+    "n_tree": 0.08,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 1869,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1868,
+    "n_tree": -0.31,
+    "europe_temp_index": 0.52
+  },
+  {
+    "year": 1867,
+    "n_tree": -1.45,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1866,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1865,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 1864,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1863,
+    "n_tree": -0.82,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 1862,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1861,
+    "n_tree": -0.21,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 1860,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1859,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 1858,
+    "n_tree": -0.55,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1857,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1856,
+    "n_tree": -1.8,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1855,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1854,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1853,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1852,
+    "n_tree": -0.51,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 1851,
+    "n_tree": -1.6,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1850,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1849,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 1848,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 1847,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1846,
+    "n_tree": -0.28,
+    "europe_temp_index": 0.52
+  },
+  {
+    "year": 1845,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 1844,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 1843,
+    "n_tree": -1.64,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 1842,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 1841,
+    "n_tree": -1.72,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1840,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1839,
+    "n_tree": -1.71,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1838,
+    "n_tree": -2.32,
+    "europe_temp_index": -1.05
+  },
+  {
+    "year": 1837,
+    "n_tree": -2.15,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 1836,
+    "n_tree": -2.41,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1835,
+    "n_tree": -1.4,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 1834,
+    "n_tree": -1.33,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 1833,
+    "n_tree": -1.8,
+    "europe_temp_index": -0.95
+  },
+  {
+    "year": 1832,
+    "n_tree": -1.67,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 1831,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 1830,
+    "n_tree": -1.61,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1829,
+    "n_tree": -1.38,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1828,
+    "n_tree": -1.14,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 1827,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1826,
+    "n_tree": -0.53,
+    "europe_temp_index": 0.49
+  },
+  {
+    "year": 1825,
+    "n_tree": -2.01,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1824,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1823,
+    "n_tree": -1.13,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1822,
+    "n_tree": -1.83,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 1821,
+    "n_tree": -3.28,
+    "europe_temp_index": -1.73
+  },
+  {
+    "year": 1820,
+    "n_tree": -2.15,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1819,
+    "n_tree": -1.67,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1818,
+    "n_tree": -2.51,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1817,
+    "n_tree": -2.05,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1816,
+    "n_tree": -2.33,
+    "europe_temp_index": -1.55
+  },
+  {
+    "year": 1815,
+    "n_tree": -2.18,
+    "europe_temp_index": -1.2
+  },
+  {
+    "year": 1814,
+    "n_tree": -1.53,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1813,
+    "n_tree": -1.76,
+    "europe_temp_index": -1.2
+  },
+  {
+    "year": 1812,
+    "n_tree": -2.4,
+    "europe_temp_index": -1.19
+  },
+  {
+    "year": 1811,
+    "n_tree": -1.1,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1810,
+    "n_tree": -2.33,
+    "europe_temp_index": -0.9
+  },
+  {
+    "year": 1809,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1808,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1807,
+    "n_tree": -0.61,
+    "europe_temp_index": 0.46
+  },
+  {
+    "year": 1806,
+    "n_tree": -1.22,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1805,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 1804,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1803,
+    "n_tree": -0.38,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1802,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1801,
+    "n_tree": -0.51,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1800,
+    "n_tree": -1.05,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1799,
+    "n_tree": -0.4,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1798,
+    "n_tree": 0.21,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 1797,
+    "n_tree": -0.44,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1796,
+    "n_tree": -0.01,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1795,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 1794,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 1793,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1792,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1791,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1790,
+    "n_tree": -1.31,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 1789,
+    "n_tree": 0.13,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 1788,
+    "n_tree": -0.31,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 1787,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 1786,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1785,
+    "n_tree": -0.11,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 1784,
+    "n_tree": -0.06,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 1783,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1782,
+    "n_tree": -0.55,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1781,
+    "n_tree": -0.37,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1780,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 1779,
+    "n_tree": -0.23,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1778,
+    "n_tree": 0.05,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1777,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1776,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1775,
+    "n_tree": 0.4,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 1774,
+    "n_tree": -0.37,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1773,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1772,
+    "n_tree": -1.93,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1771,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 1770,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1769,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1768,
+    "n_tree": -1.52,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1767,
+    "n_tree": 0.06,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 1766,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 1765,
+    "n_tree": -0.87,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 1764,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1763,
+    "n_tree": -0.37,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1762,
+    "n_tree": -0.57,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1761,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.56
+  },
+  {
+    "year": 1760,
+    "n_tree": 0.33,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 1759,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1758,
+    "n_tree": -0.47,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 1757,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.53
+  },
+  {
+    "year": 1756,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 1755,
+    "n_tree": -0.49,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 1754,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 1753,
+    "n_tree": -1.13,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1752,
+    "n_tree": -0.64,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1751,
+    "n_tree": -0.44,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1750,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1749,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1748,
+    "n_tree": -0.77,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1747,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1746,
+    "n_tree": -0.65,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 1745,
+    "n_tree": -1.08,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1744,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1743,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1742,
+    "n_tree": -1.4,
+    "europe_temp_index": -0.86
+  },
+  {
+    "year": 1741,
+    "n_tree": -1.25,
+    "europe_temp_index": -1.08
+  },
+  {
+    "year": 1740,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1739,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1738,
+    "n_tree": -0.37,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 1737,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1736,
+    "n_tree": -0.1,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 1735,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1734,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1733,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1732,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1731,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1730,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1729,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1728,
+    "n_tree": -1.03,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1727,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1726,
+    "n_tree": -0.41,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 1725,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1724,
+    "n_tree": -0.26,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 1723,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1722,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1721,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 1720,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1719,
+    "n_tree": -1.28,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 1718,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1717,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1716,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 1715,
+    "n_tree": -0.15,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1714,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1713,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 1712,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1711,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1710,
+    "n_tree": -1.13,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1709,
+    "n_tree": -1.58,
+    "europe_temp_index": -0.99
+  },
+  {
+    "year": 1708,
+    "n_tree": -2.22,
+    "europe_temp_index": -1.06
+  },
+  {
+    "year": 1707,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1706,
+    "n_tree": -1.97,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 1705,
+    "n_tree": -2.32,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1704,
+    "n_tree": -1.68,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1703,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1702,
+    "n_tree": -1.08,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1701,
+    "n_tree": -1.79,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1700,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1699,
+    "n_tree": -1.84,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 1698,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.91
+  },
+  {
+    "year": 1697,
+    "n_tree": -1.71,
+    "europe_temp_index": -0.98
+  },
+  {
+    "year": 1696,
+    "n_tree": -1.8,
+    "europe_temp_index": -1.04
+  },
+  {
+    "year": 1695,
+    "n_tree": -1.42,
+    "europe_temp_index": -1.38
+  },
+  {
+    "year": 1694,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1693,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1692,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1691,
+    "n_tree": -0.87,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 1690,
+    "n_tree": -1,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1689,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1688,
+    "n_tree": -1.56,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1687,
+    "n_tree": -1.03,
+    "europe_temp_index": -0.63
+  },
+  {
+    "year": 1686,
+    "n_tree": -1.45,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1685,
+    "n_tree": -1.13,
+    "europe_temp_index": -1.13
+  },
+  {
+    "year": 1684,
+    "n_tree": -0.71,
+    "europe_temp_index": 0.45
+  },
+  {
+    "year": 1683,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1682,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.63
+  },
+  {
+    "year": 1681,
+    "n_tree": -1.7,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 1680,
+    "n_tree": -1.63,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1679,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 1678,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1677,
+    "n_tree": -1.66,
+    "europe_temp_index": -0.94
+  },
+  {
+    "year": 1676,
+    "n_tree": -1.31,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1675,
+    "n_tree": -2.63,
+    "europe_temp_index": -1.69
+  },
+  {
+    "year": 1674,
+    "n_tree": -1.35,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 1673,
+    "n_tree": -1.5,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1672,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1671,
+    "n_tree": -0.22,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 1670,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1669,
+    "n_tree": -1.62,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1668,
+    "n_tree": -1.42,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1667,
+    "n_tree": -1.16,
+    "europe_temp_index": -0.77
+  },
+  {
+    "year": 1666,
+    "n_tree": -0.38,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 1665,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 1664,
+    "n_tree": 0.44,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1663,
+    "n_tree": -1.31,
+    "europe_temp_index": -1.23
+  },
+  {
+    "year": 1662,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.63
+  },
+  {
+    "year": 1661,
+    "n_tree": 0.15,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1660,
+    "n_tree": -0.31,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1659,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1658,
+    "n_tree": -0.13,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 1657,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1656,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1655,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1654,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 1653,
+    "n_tree": -1.35,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1652,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 1651,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1650,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1649,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1648,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1647,
+    "n_tree": -2.66,
+    "europe_temp_index": -1.03
+  },
+  {
+    "year": 1646,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1645,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1644,
+    "n_tree": -1.67,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1643,
+    "n_tree": -1.69,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1642,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 1641,
+    "n_tree": -2.39,
+    "europe_temp_index": -1.31
+  },
+  {
+    "year": 1640,
+    "n_tree": 0.14,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1639,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.98
+  },
+  {
+    "year": 1638,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1637,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1636,
+    "n_tree": 0.03,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1635,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1634,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1633,
+    "n_tree": -2.34,
+    "europe_temp_index": -1.47
+  },
+  {
+    "year": 1632,
+    "n_tree": -2.38,
+    "europe_temp_index": -1.17
+  },
+  {
+    "year": 1631,
+    "n_tree": -0.9,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1630,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1629,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 1628,
+    "n_tree": -1.02,
+    "europe_temp_index": -1.06
+  },
+  {
+    "year": 1627,
+    "n_tree": -0.32,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1626,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1625,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 1624,
+    "n_tree": -1.16,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 1623,
+    "n_tree": -1.04,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1622,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1621,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 1620,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1619,
+    "n_tree": -0.25,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1618,
+    "n_tree": -1.86,
+    "europe_temp_index": -1.01
+  },
+  {
+    "year": 1617,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1616,
+    "n_tree": -1.05,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1615,
+    "n_tree": -1.68,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1614,
+    "n_tree": -1.71,
+    "europe_temp_index": -0.91
+  },
+  {
+    "year": 1613,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1612,
+    "n_tree": -1.39,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1611,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1610,
+    "n_tree": -1.57,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1609,
+    "n_tree": -2.28,
+    "europe_temp_index": -1.11
+  },
+  {
+    "year": 1608,
+    "n_tree": -1.95,
+    "europe_temp_index": -1.44
+  },
+  {
+    "year": 1607,
+    "n_tree": -2.51,
+    "europe_temp_index": -0.96
+  },
+  {
+    "year": 1606,
+    "n_tree": -2.4,
+    "europe_temp_index": -1.27
+  },
+  {
+    "year": 1605,
+    "n_tree": -2.19,
+    "europe_temp_index": -0.85
+  },
+  {
+    "year": 1604,
+    "n_tree": -1.64,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 1603,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1602,
+    "n_tree": -1.97,
+    "europe_temp_index": -1.03
+  },
+  {
+    "year": 1601,
+    "n_tree": -2.68,
+    "europe_temp_index": -1.73
+  },
+  {
+    "year": 1600,
+    "n_tree": -1.35,
+    "europe_temp_index": -1.06
+  },
+  {
+    "year": 1599,
+    "n_tree": -0.96,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1598,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1597,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.99
+  },
+  {
+    "year": 1596,
+    "n_tree": -1.99,
+    "europe_temp_index": -1.32
+  },
+  {
+    "year": 1595,
+    "n_tree": -1.39,
+    "europe_temp_index": -0.95
+  },
+  {
+    "year": 1594,
+    "n_tree": -1.15,
+    "europe_temp_index": -0.98
+  },
+  {
+    "year": 1593,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.91
+  },
+  {
+    "year": 1592,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1591,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1590,
+    "n_tree": -1.38,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1589,
+    "n_tree": -1.71,
+    "europe_temp_index": -1.04
+  },
+  {
+    "year": 1588,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.96
+  },
+  {
+    "year": 1587,
+    "n_tree": -1.15,
+    "europe_temp_index": -1.24
+  },
+  {
+    "year": 1586,
+    "n_tree": -0.31,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1585,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1584,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1583,
+    "n_tree": 0.19,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 1582,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1581,
+    "n_tree": -1.41,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 1580,
+    "n_tree": -1.79,
+    "europe_temp_index": -0.74
+  },
+  {
+    "year": 1579,
+    "n_tree": -1.55,
+    "europe_temp_index": -1.22
+  },
+  {
+    "year": 1578,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 1577,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 1576,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1575,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 1574,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1573,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1572,
+    "n_tree": 0.11,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1571,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1570,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1569,
+    "n_tree": 0.27,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1568,
+    "n_tree": 0.01,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 1567,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1566,
+    "n_tree": 0.02,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1565,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 1564,
+    "n_tree": 0.76,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 1563,
+    "n_tree": 0.42,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1562,
+    "n_tree": -0.13,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 1561,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.43
+  },
+  {
+    "year": 1560,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1559,
+    "n_tree": -0.54,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1558,
+    "n_tree": -0.03,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 1557,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 1556,
+    "n_tree": -0.18,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 1555,
+    "n_tree": -0.51,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1554,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1553,
+    "n_tree": -0.03,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 1552,
+    "n_tree": -0.14,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1551,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1550,
+    "n_tree": -1.18,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1549,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1548,
+    "n_tree": -0.44,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1547,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1546,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1545,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 1544,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1543,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1542,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.96
+  },
+  {
+    "year": 1541,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1540,
+    "n_tree": 0.01,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 1539,
+    "n_tree": 0.2,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1538,
+    "n_tree": -0.39,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1537,
+    "n_tree": 0,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1536,
+    "n_tree": -0.97,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1535,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1534,
+    "n_tree": -0.52,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 1533,
+    "n_tree": -0.5,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1532,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 1531,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1530,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1529,
+    "n_tree": -0.61,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1528,
+    "n_tree": -1.08,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1527,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1526,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1525,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1524,
+    "n_tree": -1.42,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 1523,
+    "n_tree": -1.54,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1522,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1521,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1520,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1519,
+    "n_tree": -0.07,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 1518,
+    "n_tree": -0.18,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1517,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1516,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1515,
+    "n_tree": -0.32,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1514,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1513,
+    "n_tree": 0.22,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1512,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 1511,
+    "n_tree": -0.17,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1510,
+    "n_tree": 0.04,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1509,
+    "n_tree": -0.61,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1508,
+    "n_tree": 0,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 1507,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1506,
+    "n_tree": -0.09,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 1505,
+    "n_tree": -0.08,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1504,
+    "n_tree": -0.21,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 1503,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 1502,
+    "n_tree": -0.36,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 1501,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1500,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1499,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1498,
+    "n_tree": -1.1,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1497,
+    "n_tree": -2.18,
+    "europe_temp_index": -1.28
+  },
+  {
+    "year": 1496,
+    "n_tree": -0.29,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 1495,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1494,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 1493,
+    "n_tree": -1.32,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1492,
+    "n_tree": -0.82,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1491,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1490,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1489,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1488,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 1487,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1486,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1485,
+    "n_tree": -0.44,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1484,
+    "n_tree": -0.27,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 1483,
+    "n_tree": -1.66,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1482,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1481,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1480,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1479,
+    "n_tree": -0.61,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1478,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1477,
+    "n_tree": -1.3,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1476,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1475,
+    "n_tree": -1.67,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1474,
+    "n_tree": -1.05,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1473,
+    "n_tree": -1.53,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1472,
+    "n_tree": -1.66,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 1471,
+    "n_tree": -1.86,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1470,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 1469,
+    "n_tree": -1.74,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1468,
+    "n_tree": -1.72,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1467,
+    "n_tree": -1.97,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1466,
+    "n_tree": -2.43,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1465,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1464,
+    "n_tree": -2.02,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1463,
+    "n_tree": -2.31,
+    "europe_temp_index": -0.99
+  },
+  {
+    "year": 1462,
+    "n_tree": -2.33,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 1461,
+    "n_tree": -1.66,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1460,
+    "n_tree": -2.04,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 1459,
+    "n_tree": -2.36,
+    "europe_temp_index": -1.01
+  },
+  {
+    "year": 1458,
+    "n_tree": -2.35,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1457,
+    "n_tree": -1.63,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1456,
+    "n_tree": -2.04,
+    "europe_temp_index": -1.17
+  },
+  {
+    "year": 1455,
+    "n_tree": -1.91,
+    "europe_temp_index": -1.07
+  },
+  {
+    "year": 1454,
+    "n_tree": -1.61,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 1453,
+    "n_tree": -2.63,
+    "europe_temp_index": -1.48
+  },
+  {
+    "year": 1452,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1451,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1450,
+    "n_tree": -0.67,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 1449,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1448,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 1447,
+    "n_tree": -0.73,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1446,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1445,
+    "n_tree": 0.04,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1444,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 1443,
+    "n_tree": 0.01,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 1442,
+    "n_tree": -0.55,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 1441,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1440,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1439,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 1438,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1437,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 1436,
+    "n_tree": 0.11,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1435,
+    "n_tree": 0.2,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 1434,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 1433,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1432,
+    "n_tree": 0.46,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1431,
+    "n_tree": 0.28,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1430,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1429,
+    "n_tree": 0.36,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1428,
+    "n_tree": 0.2,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1427,
+    "n_tree": 0.38,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1426,
+    "n_tree": 0.05,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 1425,
+    "n_tree": 0.41,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 1424,
+    "n_tree": 0.83,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 1423,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1422,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 1421,
+    "n_tree": 0.21,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1420,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 1419,
+    "n_tree": -0.19,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1418,
+    "n_tree": -0.13,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 1417,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1416,
+    "n_tree": 0.11,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1415,
+    "n_tree": 0.29,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1414,
+    "n_tree": -0.73,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1413,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 1412,
+    "n_tree": -0.42,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1411,
+    "n_tree": 0.81,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 1410,
+    "n_tree": 0,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1409,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 1408,
+    "n_tree": -0.07,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1407,
+    "n_tree": 0.48,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1406,
+    "n_tree": 0.48,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1405,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1404,
+    "n_tree": 0.67,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 1403,
+    "n_tree": 0.33,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 1402,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 1401,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1400,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1399,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1398,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1397,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1396,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 1395,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1394,
+    "n_tree": -1.08,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1393,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1392,
+    "n_tree": -0.86,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 1391,
+    "n_tree": -0.1,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1390,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1389,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1388,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1387,
+    "n_tree": -0.39,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1386,
+    "n_tree": 0.09,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 1385,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1384,
+    "n_tree": -0.12,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1383,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 1382,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1381,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1380,
+    "n_tree": -0.96,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1379,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1378,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 1377,
+    "n_tree": -1.4,
+    "europe_temp_index": -1.06
+  },
+  {
+    "year": 1376,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1375,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1374,
+    "n_tree": -0.1,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1373,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1372,
+    "n_tree": 0.13,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1371,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 1370,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1369,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1368,
+    "n_tree": 0.53,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 1367,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 1366,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1365,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 1364,
+    "n_tree": 0.2,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 1363,
+    "n_tree": -1.4,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 1362,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1361,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1360,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 1359,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1358,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1357,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1356,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 1355,
+    "n_tree": -1.1,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 1354,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1353,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.74
+  },
+  {
+    "year": 1352,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.58
+  },
+  {
+    "year": 1351,
+    "n_tree": -0.86,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1350,
+    "n_tree": -1.96,
+    "europe_temp_index": -0.84
+  },
+  {
+    "year": 1349,
+    "n_tree": -2.3,
+    "europe_temp_index": -1.03
+  },
+  {
+    "year": 1348,
+    "n_tree": -2.33,
+    "europe_temp_index": -1.22
+  },
+  {
+    "year": 1347,
+    "n_tree": -1.7,
+    "europe_temp_index": -0.58
+  },
+  {
+    "year": 1346,
+    "n_tree": -2.34,
+    "europe_temp_index": -1.24
+  },
+  {
+    "year": 1345,
+    "n_tree": -1.69,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1344,
+    "n_tree": -1.54,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1343,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1342,
+    "n_tree": -1.72,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1341,
+    "n_tree": -1.44,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1340,
+    "n_tree": -1,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1339,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1338,
+    "n_tree": -1.99,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1337,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 1336,
+    "n_tree": -2.15,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1335,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1334,
+    "n_tree": -0.76,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 1333,
+    "n_tree": -1.69,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1332,
+    "n_tree": -1.6,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 1331,
+    "n_tree": -1.15,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1330,
+    "n_tree": -1.75,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1329,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1328,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1327,
+    "n_tree": 0.45,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1326,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1325,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 1324,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1323,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1322,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1321,
+    "n_tree": -0.69,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1320,
+    "n_tree": -0.13,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1319,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1318,
+    "n_tree": -0.18,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 1317,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1316,
+    "n_tree": -0.01,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 1315,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1314,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1313,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 1312,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1311,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 1310,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1309,
+    "n_tree": -1.48,
+    "europe_temp_index": -1.13
+  },
+  {
+    "year": 1308,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1307,
+    "n_tree": -1.13,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 1306,
+    "n_tree": -0.39,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1305,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1304,
+    "n_tree": -1.05,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1303,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 1302,
+    "n_tree": -1.01,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 1301,
+    "n_tree": -1.13,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1300,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1299,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1298,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1297,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1296,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 1295,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1294,
+    "n_tree": -1.92,
+    "europe_temp_index": -1.11
+  },
+  {
+    "year": 1293,
+    "n_tree": -1.51,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1292,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1291,
+    "n_tree": -1.41,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1290,
+    "n_tree": -1.63,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1289,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1288,
+    "n_tree": -1.53,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1287,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1286,
+    "n_tree": -1.1,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 1285,
+    "n_tree": -1.39,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1284,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1283,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1282,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1281,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1280,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1279,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1278,
+    "n_tree": -2.42,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 1277,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 1276,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1275,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1274,
+    "n_tree": -0.86,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1273,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1272,
+    "n_tree": -0.27,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1271,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 1270,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1269,
+    "n_tree": -0.01,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1268,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1267,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1266,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1265,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1264,
+    "n_tree": -1.45,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 1263,
+    "n_tree": -1.35,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1262,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1261,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 1260,
+    "n_tree": -0.96,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1259,
+    "n_tree": -1.28,
+    "europe_temp_index": -0.89
+  },
+  {
+    "year": 1258,
+    "n_tree": -1.57,
+    "europe_temp_index": -1.02
+  },
+  {
+    "year": 1257,
+    "n_tree": 0.19,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1256,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1255,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1254,
+    "n_tree": -1.58,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1253,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 1252,
+    "n_tree": -1.35,
+    "europe_temp_index": -0.81
+  },
+  {
+    "year": 1251,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 1250,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1249,
+    "n_tree": -0.25,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 1248,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1247,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1246,
+    "n_tree": -1.22,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1245,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1244,
+    "n_tree": -1.51,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1243,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1242,
+    "n_tree": -0.61,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 1241,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1240,
+    "n_tree": -0.39,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 1239,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1238,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 1237,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1236,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1235,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 1234,
+    "n_tree": -1.28,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1233,
+    "n_tree": -1.16,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1232,
+    "n_tree": -1.45,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1231,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1230,
+    "n_tree": -1.78,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 1229,
+    "n_tree": -0.05,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1228,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1227,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.5
+  },
+  {
+    "year": 1226,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1225,
+    "n_tree": -0.37,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1224,
+    "n_tree": 0.01,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1223,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1222,
+    "n_tree": -0.16,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1221,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 1220,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1219,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1218,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1217,
+    "n_tree": -0.59,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 1216,
+    "n_tree": -0.84,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1215,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1214,
+    "n_tree": -0.59,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 1213,
+    "n_tree": -0.96,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1212,
+    "n_tree": -0.19,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1211,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 1210,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1209,
+    "n_tree": -0.59,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1208,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1207,
+    "n_tree": -1.54,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1206,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 1205,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1204,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 1203,
+    "n_tree": -0.04,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 1202,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1201,
+    "n_tree": -1.34,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1200,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1199,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 1198,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 1197,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 1196,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1195,
+    "n_tree": -0.15,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 1194,
+    "n_tree": -1.76,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1193,
+    "n_tree": 0.16,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1192,
+    "n_tree": -1.51,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 1191,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1190,
+    "n_tree": 0.03,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1189,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1188,
+    "n_tree": 0.51,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 1187,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1186,
+    "n_tree": -0.23,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1185,
+    "n_tree": 0.31,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1184,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1183,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1182,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1181,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1180,
+    "n_tree": -0.42,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1179,
+    "n_tree": -1.01,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1178,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1177,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 1176,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1175,
+    "n_tree": 0.14,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1174,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 1173,
+    "n_tree": -0.3,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 1172,
+    "n_tree": -0.43,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 1171,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1170,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.45
+  },
+  {
+    "year": 1169,
+    "n_tree": -0.06,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1168,
+    "n_tree": 0.73,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 1167,
+    "n_tree": 0.37,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 1166,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 1165,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.62
+  },
+  {
+    "year": 1164,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.56
+  },
+  {
+    "year": 1163,
+    "n_tree": 0.34,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1162,
+    "n_tree": 0.43,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 1161,
+    "n_tree": 1.13,
+    "europe_temp_index": 0.89
+  },
+  {
+    "year": 1160,
+    "n_tree": 0.16,
+    "europe_temp_index": 0.45
+  },
+  {
+    "year": 1159,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 1158,
+    "n_tree": -0.48,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 1157,
+    "n_tree": -0.64,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1156,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 1155,
+    "n_tree": 0.15,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 1154,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 1153,
+    "n_tree": 0,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 1152,
+    "n_tree": -0.32,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1151,
+    "n_tree": -1.3,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1150,
+    "n_tree": -0.61,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 1149,
+    "n_tree": -0.46,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 1148,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1147,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1146,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1145,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 1144,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1143,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1142,
+    "n_tree": -1.34,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1141,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1140,
+    "n_tree": -1.51,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1139,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1138,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1137,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 1136,
+    "n_tree": -1.54,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1135,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1134,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1133,
+    "n_tree": -1.54,
+    "europe_temp_index": -0.77
+  },
+  {
+    "year": 1132,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1131,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 1130,
+    "n_tree": -1.87,
+    "europe_temp_index": -1.08
+  },
+  {
+    "year": 1129,
+    "n_tree": -1.67,
+    "europe_temp_index": -0.93
+  },
+  {
+    "year": 1128,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.84
+  },
+  {
+    "year": 1127,
+    "n_tree": -1.72,
+    "europe_temp_index": -1.31
+  },
+  {
+    "year": 1126,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 1125,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1124,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1123,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1122,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1121,
+    "n_tree": -2.06,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 1120,
+    "n_tree": -1.22,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1119,
+    "n_tree": -1.3,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 1118,
+    "n_tree": -1.22,
+    "europe_temp_index": -0.63
+  },
+  {
+    "year": 1117,
+    "n_tree": -1.49,
+    "europe_temp_index": -1.15
+  },
+  {
+    "year": 1116,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1115,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1114,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1113,
+    "n_tree": -0.39,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1112,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 1111,
+    "n_tree": -1.05,
+    "europe_temp_index": -0.96
+  },
+  {
+    "year": 1110,
+    "n_tree": -1.57,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 1109,
+    "n_tree": -1.89,
+    "europe_temp_index": -1.47
+  },
+  {
+    "year": 1108,
+    "n_tree": -0.65,
+    "europe_temp_index": -1.1
+  },
+  {
+    "year": 1107,
+    "n_tree": -0.28,
+    "europe_temp_index": -1.31
+  },
+  {
+    "year": 1106,
+    "n_tree": 0.82,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1105,
+    "n_tree": 0.52,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 1104,
+    "n_tree": 0.4,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1103,
+    "n_tree": 0.11,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1102,
+    "n_tree": -0.08,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1101,
+    "n_tree": -0.12,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 1100,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 1099,
+    "n_tree": -0.19,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1098,
+    "n_tree": -0.55,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 1097,
+    "n_tree": 0.25,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 1096,
+    "n_tree": -0.87,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 1095,
+    "n_tree": -0.37,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 1094,
+    "n_tree": 0.21,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1093,
+    "n_tree": 0.04,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 1092,
+    "n_tree": 0.63,
+    "europe_temp_index": 0.61
+  },
+  {
+    "year": 1091,
+    "n_tree": 0.47,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 1090,
+    "n_tree": 0.44,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1089,
+    "n_tree": 0.2,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 1088,
+    "n_tree": -0.2,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 1087,
+    "n_tree": 0.16,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 1086,
+    "n_tree": 0.86,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 1085,
+    "n_tree": -0.11,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 1084,
+    "n_tree": 0.56,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 1083,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 1082,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 1081,
+    "n_tree": 0.38,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1080,
+    "n_tree": 0.04,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 1079,
+    "n_tree": -0.18,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 1078,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1077,
+    "n_tree": -1.22,
+    "europe_temp_index": -0.81
+  },
+  {
+    "year": 1076,
+    "n_tree": -0.26,
+    "europe_temp_index": -0.58
+  },
+  {
+    "year": 1075,
+    "n_tree": -0.4,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 1074,
+    "n_tree": -0.35,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 1073,
+    "n_tree": 0.16,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 1072,
+    "n_tree": -0.3,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 1071,
+    "n_tree": -0.14,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1070,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 1069,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.84
+  },
+  {
+    "year": 1068,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 1067,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 1066,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1065,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1064,
+    "n_tree": 0.65,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 1063,
+    "n_tree": 0.22,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 1062,
+    "n_tree": 0.98,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 1061,
+    "n_tree": 1.2,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 1060,
+    "n_tree": 0.79,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 1059,
+    "n_tree": 0.19,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 1058,
+    "n_tree": 0.64,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 1057,
+    "n_tree": 0.7,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1056,
+    "n_tree": 0.08,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 1055,
+    "n_tree": 0.3,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1054,
+    "n_tree": 0.09,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 1053,
+    "n_tree": -0.5,
+    "europe_temp_index": -0.74
+  },
+  {
+    "year": 1052,
+    "n_tree": 0.65,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 1051,
+    "n_tree": 0.74,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 1050,
+    "n_tree": -0.2,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 1049,
+    "n_tree": 0.34,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 1048,
+    "n_tree": 0.64,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 1047,
+    "n_tree": -0.25,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 1046,
+    "n_tree": 0.33,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1045,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 1044,
+    "n_tree": 0.01,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1043,
+    "n_tree": -0.35,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 1042,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 1041,
+    "n_tree": -0.28,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 1040,
+    "n_tree": 0.13,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1039,
+    "n_tree": 0.07,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 1038,
+    "n_tree": 0.25,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 1037,
+    "n_tree": 0.37,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 1036,
+    "n_tree": 0.06,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 1035,
+    "n_tree": -0.05,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 1034,
+    "n_tree": 0.6,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 1033,
+    "n_tree": 0.63,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 1032,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.9
+  },
+  {
+    "year": 1031,
+    "n_tree": 0.05,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1030,
+    "n_tree": 0.28,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 1029,
+    "n_tree": 0.06,
+    "europe_temp_index": -0.83
+  },
+  {
+    "year": 1028,
+    "n_tree": 0.61,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 1027,
+    "n_tree": 0.22,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 1026,
+    "n_tree": 0.38,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 1025,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 1024,
+    "n_tree": 0.3,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 1023,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 1022,
+    "n_tree": 0.06,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1021,
+    "n_tree": -0.18,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 1020,
+    "n_tree": 0.29,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1019,
+    "n_tree": 0.61,
+    "europe_temp_index": 0.52
+  },
+  {
+    "year": 1018,
+    "n_tree": -0.19,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 1017,
+    "n_tree": -0.14,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 1016,
+    "n_tree": -0.4,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 1015,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 1014,
+    "n_tree": -0.73,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 1013,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 1012,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 1011,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 1010,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 1009,
+    "n_tree": -0.44,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 1008,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 1007,
+    "n_tree": -0.31,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 1006,
+    "n_tree": -0.31,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 1005,
+    "n_tree": -0.39,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 1004,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 1003,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 1002,
+    "n_tree": -0.13,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 1001,
+    "n_tree": 0.05,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 1000,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 999,
+    "n_tree": -0.07,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 998,
+    "n_tree": 0,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 997,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 996,
+    "n_tree": 0.47,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 995,
+    "n_tree": 0.62,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 994,
+    "n_tree": -0.1,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 993,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 992,
+    "n_tree": 0.08,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 991,
+    "n_tree": -0.11,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 990,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.41
+  },
+  {
+    "year": 989,
+    "n_tree": 0,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 988,
+    "n_tree": 0.31,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 987,
+    "n_tree": 0.67,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 986,
+    "n_tree": 1.34,
+    "europe_temp_index": 0.83
+  },
+  {
+    "year": 985,
+    "n_tree": 0.13,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 984,
+    "n_tree": 0.5,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 983,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.53
+  },
+  {
+    "year": 982,
+    "n_tree": 1.37,
+    "europe_temp_index": 1.08
+  },
+  {
+    "year": 981,
+    "n_tree": -0.04,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 980,
+    "n_tree": 0.3,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 979,
+    "n_tree": -0.51,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 978,
+    "n_tree": 0.48,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 977,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 976,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 975,
+    "n_tree": 0.04,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 974,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 973,
+    "n_tree": -0.07,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 972,
+    "n_tree": 0.57,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 971,
+    "n_tree": 0.05,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 970,
+    "n_tree": 0.09,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 969,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 968,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 967,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 966,
+    "n_tree": -0.12,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 965,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 964,
+    "n_tree": 0.53,
+    "europe_temp_index": 0.53
+  },
+  {
+    "year": 963,
+    "n_tree": 0.25,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 962,
+    "n_tree": -0.48,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 961,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.85
+  },
+  {
+    "year": 960,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 959,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 958,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 957,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 956,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 955,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 954,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 953,
+    "n_tree": 0.39,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 952,
+    "n_tree": -0.47,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 951,
+    "n_tree": 0.52,
+    "europe_temp_index": 0.64
+  },
+  {
+    "year": 950,
+    "n_tree": 0,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 949,
+    "n_tree": -0.15,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 948,
+    "n_tree": -0.44,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 947,
+    "n_tree": 0.04,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 946,
+    "n_tree": -0.04,
+    "europe_temp_index": 0.3
+  },
+  {
+    "year": 945,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 944,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 943,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 942,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 941,
+    "n_tree": 0.02,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 940,
+    "n_tree": -1.68,
+    "europe_temp_index": -1.2
+  },
+  {
+    "year": 939,
+    "n_tree": -0.17,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 938,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 937,
+    "n_tree": 0.3,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 936,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 935,
+    "n_tree": 0.26,
+    "europe_temp_index": 0.46
+  },
+  {
+    "year": 934,
+    "n_tree": 1.15,
+    "europe_temp_index": 0.89
+  },
+  {
+    "year": 933,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.66
+  },
+  {
+    "year": 932,
+    "n_tree": 0.2,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 931,
+    "n_tree": -0.1,
+    "europe_temp_index": 0.43
+  },
+  {
+    "year": 930,
+    "n_tree": 0.27,
+    "europe_temp_index": 0.65
+  },
+  {
+    "year": 929,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.59
+  },
+  {
+    "year": 928,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.76
+  },
+  {
+    "year": 927,
+    "n_tree": -0.68,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 926,
+    "n_tree": 0.21,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 925,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 924,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 923,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 922,
+    "n_tree": 0.02,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 921,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 920,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 919,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 918,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 917,
+    "n_tree": -0.69,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 916,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 915,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 914,
+    "n_tree": -1.31,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 913,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 912,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.56
+  },
+  {
+    "year": 911,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 910,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.58
+  },
+  {
+    "year": 909,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 908,
+    "n_tree": -0.82,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 907,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 906,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 905,
+    "n_tree": -0.89,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 904,
+    "n_tree": -0.92,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 903,
+    "n_tree": -1.46,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 902,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 901,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 900,
+    "n_tree": -1.39,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 899,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 898,
+    "n_tree": -0.22,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 897,
+    "n_tree": 0.34,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 896,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 895,
+    "n_tree": 0.02,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 894,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 893,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 892,
+    "n_tree": -0.18,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 891,
+    "n_tree": 1.09,
+    "europe_temp_index": 0.82
+  },
+  {
+    "year": 890,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 889,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 888,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 887,
+    "n_tree": 0.56,
+    "europe_temp_index": 0.57
+  },
+  {
+    "year": 886,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.57
+  },
+  {
+    "year": 885,
+    "n_tree": 0.25,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 884,
+    "n_tree": -0.75,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 883,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 882,
+    "n_tree": 0.14,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 881,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 880,
+    "n_tree": 0.09,
+    "europe_temp_index": 0.5
+  },
+  {
+    "year": 879,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 878,
+    "n_tree": 0.39,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 877,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 876,
+    "n_tree": 0.44,
+    "europe_temp_index": 0.52
+  },
+  {
+    "year": 875,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 874,
+    "n_tree": -0.09,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 873,
+    "n_tree": 0.04,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 872,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 871,
+    "n_tree": -0.32,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 870,
+    "n_tree": -0.66,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 869,
+    "n_tree": 0.04,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 868,
+    "n_tree": -0.65,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 867,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 866,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 865,
+    "n_tree": -1.68,
+    "europe_temp_index": -0.88
+  },
+  {
+    "year": 864,
+    "n_tree": -0.5,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 863,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 862,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 861,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 860,
+    "n_tree": -1.38,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 859,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 858,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 857,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 856,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 855,
+    "n_tree": -0.56,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 854,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 853,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 852,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.81
+  },
+  {
+    "year": 851,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 850,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 849,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 848,
+    "n_tree": -0.42,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 847,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 846,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 845,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.59
+  },
+  {
+    "year": 844,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 843,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 842,
+    "n_tree": 0.08,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 841,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 840,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 839,
+    "n_tree": 0.04,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 838,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 837,
+    "n_tree": 0.28,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 836,
+    "n_tree": -0.53,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 835,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 834,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 833,
+    "n_tree": -0.21,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 832,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 831,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 830,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 829,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 828,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 827,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 826,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 825,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 824,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 823,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 822,
+    "n_tree": -0.47,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 821,
+    "n_tree": -0.17,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 820,
+    "n_tree": -0.26,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 819,
+    "n_tree": -0.69,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 818,
+    "n_tree": -1.32,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 817,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 816,
+    "n_tree": -0.68,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 815,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 814,
+    "n_tree": -1.69,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 813,
+    "n_tree": -0.8,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 812,
+    "n_tree": -0.69,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 811,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 810,
+    "n_tree": -1.28,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 809,
+    "n_tree": -1.46,
+    "europe_temp_index": -0.74
+  },
+  {
+    "year": 808,
+    "n_tree": -0.86,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 807,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 806,
+    "n_tree": -1.03,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 805,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 804,
+    "n_tree": -1.2,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 803,
+    "n_tree": -1.38,
+    "europe_temp_index": -0.83
+  },
+  {
+    "year": 802,
+    "n_tree": -1.24,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 801,
+    "n_tree": -1.38,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 800,
+    "n_tree": -2.37,
+    "europe_temp_index": -1.57
+  },
+  {
+    "year": 799,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 798,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 797,
+    "n_tree": -1.08,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 796,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 795,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 794,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 793,
+    "n_tree": 0.18,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 792,
+    "n_tree": 0.62,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 791,
+    "n_tree": -1.01,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 790,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 789,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 788,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 787,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 786,
+    "n_tree": -0.35,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 785,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 784,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 783,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 782,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 781,
+    "n_tree": -1.09,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 780,
+    "n_tree": -0.22,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 779,
+    "n_tree": -0.27,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 778,
+    "n_tree": 0.3,
+    "europe_temp_index": 0.46
+  },
+  {
+    "year": 777,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 776,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 775,
+    "n_tree": 0.09,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 774,
+    "n_tree": -0.04,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 773,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 772,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 771,
+    "n_tree": 0.68,
+    "europe_temp_index": 0.77
+  },
+  {
+    "year": 770,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 769,
+    "n_tree": 0.64,
+    "europe_temp_index": 0.39
+  },
+  {
+    "year": 768,
+    "n_tree": 0.48,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 767,
+    "n_tree": 0.65,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 766,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 765,
+    "n_tree": 0.68,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 764,
+    "n_tree": 1.09,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 763,
+    "n_tree": 0.72,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 762,
+    "n_tree": -0.4,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 761,
+    "n_tree": 0.48,
+    "europe_temp_index": 0.65
+  },
+  {
+    "year": 760,
+    "n_tree": 0.68,
+    "europe_temp_index": 0.7
+  },
+  {
+    "year": 759,
+    "n_tree": 0.4,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 758,
+    "n_tree": 0.97,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 757,
+    "n_tree": 0.58,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 756,
+    "n_tree": 0.33,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 755,
+    "n_tree": 0.48,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 754,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.67
+  },
+  {
+    "year": 753,
+    "n_tree": 0.61,
+    "europe_temp_index": 0.64
+  },
+  {
+    "year": 752,
+    "n_tree": 0.04,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 751,
+    "n_tree": 0.41,
+    "europe_temp_index": 0.41
+  },
+  {
+    "year": 750,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 749,
+    "n_tree": 0.23,
+    "europe_temp_index": 0.39
+  },
+  {
+    "year": 748,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 747,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.79
+  },
+  {
+    "year": 746,
+    "n_tree": 0.08,
+    "europe_temp_index": 0.3
+  },
+  {
+    "year": 745,
+    "n_tree": -0.38,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 744,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 743,
+    "n_tree": -0.57,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 742,
+    "n_tree": 0.38,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 741,
+    "n_tree": -0.37,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 740,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 739,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 738,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 737,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 736,
+    "n_tree": 0.56,
+    "europe_temp_index": 0.6
+  },
+  {
+    "year": 735,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 734,
+    "n_tree": 0.11,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 733,
+    "n_tree": -0.31,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 732,
+    "n_tree": 0.76,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 731,
+    "n_tree": 0,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 730,
+    "n_tree": 0.57,
+    "europe_temp_index": 0.63
+  },
+  {
+    "year": 729,
+    "n_tree": 0.11,
+    "europe_temp_index": 0.45
+  },
+  {
+    "year": 728,
+    "n_tree": 0.25,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 727,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 726,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.45
+  },
+  {
+    "year": 725,
+    "n_tree": -0.2,
+    "europe_temp_index": 0.5
+  },
+  {
+    "year": 724,
+    "n_tree": -0.01,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 723,
+    "n_tree": -0.21,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 722,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 721,
+    "n_tree": 0.21,
+    "europe_temp_index": 0.5
+  },
+  {
+    "year": 720,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 719,
+    "n_tree": -0.62,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 718,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 717,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 716,
+    "n_tree": -0.43,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 715,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 714,
+    "n_tree": -0.14,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 713,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 712,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 711,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 710,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 709,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 708,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.46
+  },
+  {
+    "year": 707,
+    "n_tree": -0.63,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 706,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 705,
+    "n_tree": -0.1,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 704,
+    "n_tree": 0.11,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 703,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 702,
+    "n_tree": -0.5,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 701,
+    "n_tree": -0.54,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 700,
+    "n_tree": -1.46,
+    "europe_temp_index": -0.54
+  },
+  {
+    "year": 699,
+    "n_tree": -0.53,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 698,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 697,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 696,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 695,
+    "n_tree": -0.83,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 694,
+    "n_tree": -1.3,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 693,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 692,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 691,
+    "n_tree": -0.96,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 690,
+    "n_tree": -1.21,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 689,
+    "n_tree": -0.69,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 688,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 687,
+    "n_tree": -1.93,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 686,
+    "n_tree": -0.48,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 685,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 684,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 683,
+    "n_tree": 0.24,
+    "europe_temp_index": 0.64
+  },
+  {
+    "year": 682,
+    "n_tree": -0.93,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 681,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 680,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 679,
+    "n_tree": -0.26,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 678,
+    "n_tree": -0.3,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 677,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 676,
+    "n_tree": -1.05,
+    "europe_temp_index": -0.58
+  },
+  {
+    "year": 675,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.3
+  },
+  {
+    "year": 674,
+    "n_tree": 0.67,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 673,
+    "n_tree": 0.33,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 672,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 671,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 670,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 669,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 668,
+    "n_tree": -0.4,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 667,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 666,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 665,
+    "n_tree": -0.16,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 664,
+    "n_tree": -0.87,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 663,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 662,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 661,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 660,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 659,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 658,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 657,
+    "n_tree": 0.04,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 656,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 655,
+    "n_tree": -1.43,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 654,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 653,
+    "n_tree": -0.87,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 652,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 651,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 650,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 649,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 648,
+    "n_tree": -1.74,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 647,
+    "n_tree": -1.38,
+    "europe_temp_index": -0.86
+  },
+  {
+    "year": 646,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 645,
+    "n_tree": -0.59,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 644,
+    "n_tree": -1.45,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 643,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 642,
+    "n_tree": -0.66,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 641,
+    "n_tree": -0.62,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 640,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 639,
+    "n_tree": -1.54,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 638,
+    "n_tree": -0.59,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 637,
+    "n_tree": -0.27,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 636,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 635,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 634,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 633,
+    "n_tree": 0.31,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 632,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 631,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 630,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 629,
+    "n_tree": 0.28,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 628,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 627,
+    "n_tree": -3.02,
+    "europe_temp_index": -1.01
+  },
+  {
+    "year": 626,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.71
+  },
+  {
+    "year": 625,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 624,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 623,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 622,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.3
+  },
+  {
+    "year": 621,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 620,
+    "n_tree": -0.38,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 619,
+    "n_tree": -0.13,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 618,
+    "n_tree": -0.44,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 617,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 616,
+    "n_tree": 0.22,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 615,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 614,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 613,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 612,
+    "n_tree": -0.53,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 611,
+    "n_tree": -1,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 610,
+    "n_tree": -1.34,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 609,
+    "n_tree": -1.18,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 608,
+    "n_tree": -1.72,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 607,
+    "n_tree": -1.52,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 606,
+    "n_tree": -0.19,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 605,
+    "n_tree": -0.37,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 604,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 603,
+    "n_tree": -1.86,
+    "europe_temp_index": -0.97
+  },
+  {
+    "year": 602,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 601,
+    "n_tree": -1.49,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 600,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 599,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 598,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 597,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 596,
+    "n_tree": -1.86,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 595,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 594,
+    "n_tree": 0.33,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 593,
+    "n_tree": -0.08,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 592,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 591,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 590,
+    "n_tree": -0.15,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 589,
+    "n_tree": -1.42,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 588,
+    "n_tree": -0.17,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 587,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 586,
+    "n_tree": -0.1,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 585,
+    "n_tree": -1.4,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 584,
+    "n_tree": -0.61,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 583,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 582,
+    "n_tree": -1.16,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 581,
+    "n_tree": -0.49,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 580,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 579,
+    "n_tree": -1.22,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 578,
+    "n_tree": -1.33,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 577,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 576,
+    "n_tree": -1.1,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 575,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 574,
+    "n_tree": -2.56,
+    "europe_temp_index": -1.39
+  },
+  {
+    "year": 573,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 572,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 571,
+    "n_tree": -0.62,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 570,
+    "n_tree": -0.71,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 569,
+    "n_tree": -1.77,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 568,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 567,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 566,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 565,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 564,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.81
+  },
+  {
+    "year": 563,
+    "n_tree": -1.31,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 562,
+    "n_tree": -1.41,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 561,
+    "n_tree": -0.87,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 560,
+    "n_tree": -1.53,
+    "europe_temp_index": -0.81
+  },
+  {
+    "year": 559,
+    "n_tree": -0.6,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 558,
+    "n_tree": 0.23,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 557,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 556,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 555,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 554,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 553,
+    "n_tree": -0.95,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 552,
+    "n_tree": -1.39,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 551,
+    "n_tree": -2.13,
+    "europe_temp_index": -1.14
+  },
+  {
+    "year": 550,
+    "n_tree": -1.46,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 549,
+    "n_tree": -2.32,
+    "europe_temp_index": -1.34
+  },
+  {
+    "year": 548,
+    "n_tree": -1.43,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 547,
+    "n_tree": -2.12,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 546,
+    "n_tree": -2.45,
+    "europe_temp_index": -0.8
+  },
+  {
+    "year": 545,
+    "n_tree": -2.58,
+    "europe_temp_index": -1.11
+  },
+  {
+    "year": 544,
+    "n_tree": -2.65,
+    "europe_temp_index": -1.41
+  },
+  {
+    "year": 543,
+    "n_tree": -3.08,
+    "europe_temp_index": -1.37
+  },
+  {
+    "year": 542,
+    "n_tree": -1.6,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 541,
+    "n_tree": -2.53,
+    "europe_temp_index": -1.34
+  },
+  {
+    "year": 540,
+    "n_tree": -1.9,
+    "europe_temp_index": -0.86
+  },
+  {
+    "year": 539,
+    "n_tree": -1.21,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 538,
+    "n_tree": -2.01,
+    "europe_temp_index": -1.08
+  },
+  {
+    "year": 537,
+    "n_tree": -1.89,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 536,
+    "n_tree": -3.29,
+    "europe_temp_index": -1.58
+  },
+  {
+    "year": 535,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 534,
+    "n_tree": -0.22,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 533,
+    "n_tree": -0.51,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 532,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 531,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 530,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 529,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 528,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 527,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 526,
+    "n_tree": -0.5,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 525,
+    "n_tree": 0.12,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 524,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 523,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 522,
+    "n_tree": -1.09,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 521,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 520,
+    "n_tree": -0.37,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 519,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 518,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 517,
+    "n_tree": -0.16,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 516,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 515,
+    "n_tree": -0.51,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 514,
+    "n_tree": -0.15,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 513,
+    "n_tree": 0.52,
+    "europe_temp_index": 0.39
+  },
+  {
+    "year": 512,
+    "n_tree": -0.16,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 511,
+    "n_tree": -1.44,
+    "europe_temp_index": -0.78
+  },
+  {
+    "year": 510,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 509,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.76
+  },
+  {
+    "year": 508,
+    "n_tree": 0,
+    "europe_temp_index": 0.41
+  },
+  {
+    "year": 507,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.52
+  },
+  {
+    "year": 506,
+    "n_tree": -0.33,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 505,
+    "n_tree": -0.23,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 504,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 503,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.64
+  },
+  {
+    "year": 502,
+    "n_tree": 0.23,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 501,
+    "n_tree": -0.07,
+    "europe_temp_index": 0.46
+  },
+  {
+    "year": 500,
+    "n_tree": 0.18,
+    "europe_temp_index": 0.82
+  },
+  {
+    "year": 499,
+    "n_tree": 0.29,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 498,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 497,
+    "n_tree": 0.11,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 496,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 495,
+    "n_tree": -0.44,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 494,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.71
+  },
+  {
+    "year": 493,
+    "n_tree": 0.22,
+    "europe_temp_index": 0.79
+  },
+  {
+    "year": 492,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 491,
+    "n_tree": -0.27,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 490,
+    "n_tree": -0.15,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 489,
+    "n_tree": -0.2,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 488,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 487,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.7
+  },
+  {
+    "year": 486,
+    "n_tree": -1.09,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 485,
+    "n_tree": -0.02,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 484,
+    "n_tree": -1.15,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 483,
+    "n_tree": -0.75,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 482,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 481,
+    "n_tree": -0.42,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 480,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 479,
+    "n_tree": -1.6,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 478,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 477,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 476,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 475,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 474,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.56
+  },
+  {
+    "year": 473,
+    "n_tree": -0.26,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 472,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 471,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 470,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 469,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 468,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 467,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 466,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 465,
+    "n_tree": -0.86,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 464,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 463,
+    "n_tree": -0.54,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 462,
+    "n_tree": -1.4,
+    "europe_temp_index": -0.95
+  },
+  {
+    "year": 461,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 460,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 459,
+    "n_tree": -1.3,
+    "europe_temp_index": -1
+  },
+  {
+    "year": 458,
+    "n_tree": -0.19,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 457,
+    "n_tree": -0.21,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 456,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 455,
+    "n_tree": -0.18,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 454,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 453,
+    "n_tree": -0.5,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 452,
+    "n_tree": -0.52,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 451,
+    "n_tree": -1.05,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 450,
+    "n_tree": -0.75,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 449,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.36
+  },
+  {
+    "year": 448,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 447,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 446,
+    "n_tree": -0.94,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 445,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 444,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.57
+  },
+  {
+    "year": 443,
+    "n_tree": -0.4,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 442,
+    "n_tree": -0.16,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 441,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 440,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 439,
+    "n_tree": -1.92,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 438,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 437,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 436,
+    "n_tree": -1.07,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 435,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 434,
+    "n_tree": 0.38,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 433,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 432,
+    "n_tree": -0.48,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 431,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 430,
+    "n_tree": 0.37,
+    "europe_temp_index": 0.65
+  },
+  {
+    "year": 429,
+    "n_tree": -0.5,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 428,
+    "n_tree": -0.39,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 427,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 426,
+    "n_tree": -1.87,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 425,
+    "n_tree": -0.73,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 424,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 423,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 422,
+    "n_tree": -1.58,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 421,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 420,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 419,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.5
+  },
+  {
+    "year": 418,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 417,
+    "n_tree": -0.95,
+    "europe_temp_index": -0.95
+  },
+  {
+    "year": 416,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 415,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 414,
+    "n_tree": -1.44,
+    "europe_temp_index": -1.22
+  },
+  {
+    "year": 413,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.62
+  },
+  {
+    "year": 412,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 411,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 410,
+    "n_tree": -0.28,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 409,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 408,
+    "n_tree": 0.05,
+    "europe_temp_index": 0.41
+  },
+  {
+    "year": 407,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.39
+  },
+  {
+    "year": 406,
+    "n_tree": 0.24,
+    "europe_temp_index": 0.43
+  },
+  {
+    "year": 405,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 404,
+    "n_tree": -0.79,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 403,
+    "n_tree": -0.36,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 402,
+    "n_tree": -0.18,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 401,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 400,
+    "n_tree": -0.87,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 399,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 398,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 397,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 396,
+    "n_tree": -1.75,
+    "europe_temp_index": -1.19
+  },
+  {
+    "year": 395,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 394,
+    "n_tree": -1.16,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 393,
+    "n_tree": -1.72,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 392,
+    "n_tree": -0.96,
+    "europe_temp_index": -0.96
+  },
+  {
+    "year": 391,
+    "n_tree": -0.62,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 390,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 389,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 388,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 387,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 386,
+    "n_tree": 0.42,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 385,
+    "n_tree": -0.12,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 384,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 383,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 382,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 381,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 380,
+    "n_tree": 0,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 379,
+    "n_tree": -0.45,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 378,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 377,
+    "n_tree": 0.25,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 376,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 375,
+    "n_tree": 0.65,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 374,
+    "n_tree": -0.42,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 373,
+    "n_tree": 0.34,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 372,
+    "n_tree": 0.17,
+    "europe_temp_index": -0.35
+  },
+  {
+    "year": 371,
+    "n_tree": 0.69,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 370,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 369,
+    "n_tree": -0.56,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 368,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 367,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.17
+  },
+  {
+    "year": 366,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 365,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 364,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 363,
+    "n_tree": 0.06,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 362,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.07
+  },
+  {
+    "year": 361,
+    "n_tree": -0.14,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 360,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 359,
+    "n_tree": -1.09,
+    "europe_temp_index": -0.67
+  },
+  {
+    "year": 358,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 357,
+    "n_tree": -1.47,
+    "europe_temp_index": -1.12
+  },
+  {
+    "year": 356,
+    "n_tree": -1.28,
+    "europe_temp_index": -1.04
+  },
+  {
+    "year": 355,
+    "n_tree": -1.15,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 354,
+    "n_tree": -1.55,
+    "europe_temp_index": -0.79
+  },
+  {
+    "year": 353,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.55
+  },
+  {
+    "year": 352,
+    "n_tree": -1.47,
+    "europe_temp_index": -0.68
+  },
+  {
+    "year": 351,
+    "n_tree": -1.16,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 350,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 349,
+    "n_tree": -1.05,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 348,
+    "n_tree": -0.38,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 347,
+    "n_tree": -0.39,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 346,
+    "n_tree": -0.63,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 345,
+    "n_tree": -1.41,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 344,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 343,
+    "n_tree": -1.81,
+    "europe_temp_index": -0.85
+  },
+  {
+    "year": 342,
+    "n_tree": -1.42,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 341,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 340,
+    "n_tree": -1.49,
+    "europe_temp_index": -0.86
+  },
+  {
+    "year": 339,
+    "n_tree": -2.48,
+    "europe_temp_index": -1.28
+  },
+  {
+    "year": 338,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.45
+  },
+  {
+    "year": 337,
+    "n_tree": -1.06,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 336,
+    "n_tree": -1.36,
+    "europe_temp_index": -0.84
+  },
+  {
+    "year": 335,
+    "n_tree": -1.69,
+    "europe_temp_index": -0.99
+  },
+  {
+    "year": 334,
+    "n_tree": -0.5,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 333,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.77
+  },
+  {
+    "year": 332,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.75
+  },
+  {
+    "year": 331,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 330,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 329,
+    "n_tree": -1.11,
+    "europe_temp_index": -0.82
+  },
+  {
+    "year": 328,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 327,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 326,
+    "n_tree": -1.37,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 325,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 324,
+    "n_tree": -0.03,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 323,
+    "n_tree": -0.61,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 322,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.39
+  },
+  {
+    "year": 321,
+    "n_tree": -1.09,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 320,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 319,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 318,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 317,
+    "n_tree": -0.71,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 316,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 315,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 314,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 313,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 312,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 311,
+    "n_tree": -1.1,
+    "europe_temp_index": -0.53
+  },
+  {
+    "year": 310,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 309,
+    "n_tree": -1.01,
+    "europe_temp_index": -0.65
+  },
+  {
+    "year": 308,
+    "n_tree": -0.99,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 307,
+    "n_tree": -0.58,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 306,
+    "n_tree": -0.59,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 305,
+    "n_tree": -0.85,
+    "europe_temp_index": -0.58
+  },
+  {
+    "year": 304,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 303,
+    "n_tree": -0.34,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 302,
+    "n_tree": -0.88,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 301,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 300,
+    "n_tree": -0.78,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 299,
+    "n_tree": -1.26,
+    "europe_temp_index": -0.76
+  },
+  {
+    "year": 298,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 297,
+    "n_tree": 0.31,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 296,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 295,
+    "n_tree": -0.51,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 294,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 293,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 292,
+    "n_tree": -0.46,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 291,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 290,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.49
+  },
+  {
+    "year": 289,
+    "n_tree": -0.01,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 288,
+    "n_tree": -0.22,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 287,
+    "n_tree": -0.33,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 286,
+    "n_tree": 0.08,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 285,
+    "n_tree": -0.56,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 284,
+    "n_tree": 0.1,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 283,
+    "n_tree": -0.36,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 282,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 281,
+    "n_tree": -0.22,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 280,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.1
+  },
+  {
+    "year": 279,
+    "n_tree": 0.15,
+    "europe_temp_index": 0.38
+  },
+  {
+    "year": 278,
+    "n_tree": 0.18,
+    "europe_temp_index": 0.69
+  },
+  {
+    "year": 277,
+    "n_tree": -0.14,
+    "europe_temp_index": 0.52
+  },
+  {
+    "year": 276,
+    "n_tree": -0.45,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 275,
+    "n_tree": -0.72,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 274,
+    "n_tree": -1.85,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 273,
+    "n_tree": -1.12,
+    "europe_temp_index": -0.19
+  },
+  {
+    "year": 272,
+    "n_tree": -1.01,
+    "europe_temp_index": -0.05
+  },
+  {
+    "year": 271,
+    "n_tree": -1.59,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 270,
+    "n_tree": -1.01,
+    "europe_temp_index": -0.74
+  },
+  {
+    "year": 269,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 268,
+    "n_tree": -1.52,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 267,
+    "n_tree": -1.25,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 266,
+    "n_tree": -0.09,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 265,
+    "n_tree": -0.93,
+    "europe_temp_index": -0.59
+  },
+  {
+    "year": 264,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 263,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 262,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 261,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 260,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.73
+  },
+  {
+    "year": 259,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.11
+  },
+  {
+    "year": 258,
+    "n_tree": 0.08,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 257,
+    "n_tree": -0.07,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 256,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 255,
+    "n_tree": 0.16,
+    "europe_temp_index": 0.57
+  },
+  {
+    "year": 254,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 253,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 252,
+    "n_tree": 0.14,
+    "europe_temp_index": 0.62
+  },
+  {
+    "year": 251,
+    "n_tree": -0.69,
+    "europe_temp_index": -0.72
+  },
+  {
+    "year": 250,
+    "n_tree": 0.56,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 249,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.18
+  },
+  {
+    "year": 248,
+    "n_tree": 0.29,
+    "europe_temp_index": 0.26
+  },
+  {
+    "year": 247,
+    "n_tree": 1.01,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 246,
+    "n_tree": 0.82,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 245,
+    "n_tree": 1.86,
+    "europe_temp_index": 0.89
+  },
+  {
+    "year": 244,
+    "n_tree": 0.63,
+    "europe_temp_index": 0.39
+  },
+  {
+    "year": 243,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 242,
+    "n_tree": 1.53,
+    "europe_temp_index": 0.63
+  },
+  {
+    "year": 241,
+    "n_tree": 0.42,
+    "europe_temp_index": 0.56
+  },
+  {
+    "year": 240,
+    "n_tree": 0.8,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 239,
+    "n_tree": 0.76,
+    "europe_temp_index": 0.76
+  },
+  {
+    "year": 238,
+    "n_tree": 0.36,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 237,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 236,
+    "n_tree": -0.58,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 235,
+    "n_tree": 0.3,
+    "europe_temp_index": 0.77
+  },
+  {
+    "year": 234,
+    "n_tree": 0.45,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 233,
+    "n_tree": -0.12,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 232,
+    "n_tree": -0.06,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 231,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 230,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.41
+  },
+  {
+    "year": 229,
+    "n_tree": 0.54,
+    "europe_temp_index": 0.59
+  },
+  {
+    "year": 228,
+    "n_tree": -0.53,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 227,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.3
+  },
+  {
+    "year": 226,
+    "n_tree": 0.14,
+    "europe_temp_index": 0.35
+  },
+  {
+    "year": 225,
+    "n_tree": 0.13,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 224,
+    "n_tree": -0.52,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 223,
+    "n_tree": -0.9,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 222,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.11
+  },
+  {
+    "year": 221,
+    "n_tree": -2.04,
+    "europe_temp_index": -1.03
+  },
+  {
+    "year": 220,
+    "n_tree": -1.23,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 219,
+    "n_tree": -0.72,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 218,
+    "n_tree": -0.73,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 217,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.5
+  },
+  {
+    "year": 216,
+    "n_tree": -0.11,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 215,
+    "n_tree": -0.29,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 214,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 213,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 212,
+    "n_tree": 0.39,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 211,
+    "n_tree": -0.66,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 210,
+    "n_tree": 0.66,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 209,
+    "n_tree": -0.15,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 208,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.88
+  },
+  {
+    "year": 207,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.51
+  },
+  {
+    "year": 206,
+    "n_tree": 0.34,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 205,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 204,
+    "n_tree": -0.43,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 203,
+    "n_tree": -0.41,
+    "europe_temp_index": -0.4
+  },
+  {
+    "year": 202,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 201,
+    "n_tree": -0.65,
+    "europe_temp_index": -0.46
+  },
+  {
+    "year": 200,
+    "n_tree": -0.25,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 199,
+    "n_tree": -0.67,
+    "europe_temp_index": -0.13
+  },
+  {
+    "year": 198,
+    "n_tree": -0.28,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 197,
+    "n_tree": 0.08,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 196,
+    "n_tree": 0.09,
+    "europe_temp_index": 0.56
+  },
+  {
+    "year": 195,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 194,
+    "n_tree": -0.18,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 193,
+    "n_tree": -0.37,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 192,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 191,
+    "n_tree": 0.57,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 190,
+    "n_tree": 0,
+    "europe_temp_index": 0.7
+  },
+  {
+    "year": 189,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 188,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 187,
+    "n_tree": -0.63,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 186,
+    "n_tree": -0.38,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 185,
+    "n_tree": -0.22,
+    "europe_temp_index": 0.28
+  },
+  {
+    "year": 184,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 183,
+    "n_tree": -0.58,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 182,
+    "n_tree": -1.03,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 181,
+    "n_tree": -0.69,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 180,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 179,
+    "n_tree": -1.63,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 178,
+    "n_tree": -1.15,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 177,
+    "n_tree": -1.27,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 176,
+    "n_tree": -1.03,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 175,
+    "n_tree": -1.5,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 174,
+    "n_tree": -1.75,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 173,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 172,
+    "n_tree": -0.61,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 171,
+    "n_tree": -1.04,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 170,
+    "n_tree": -0.8,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 169,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.27
+  },
+  {
+    "year": 168,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.22
+  },
+  {
+    "year": 167,
+    "n_tree": -0.28,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 166,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.48
+  },
+  {
+    "year": 165,
+    "n_tree": -1.58,
+    "europe_temp_index": -0.25
+  },
+  {
+    "year": 164,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.33
+  },
+  {
+    "year": 163,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.44
+  },
+  {
+    "year": 162,
+    "n_tree": -0.52,
+    "europe_temp_index": -0.23
+  },
+  {
+    "year": 161,
+    "n_tree": -0.33,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 160,
+    "n_tree": -0.92,
+    "europe_temp_index": -0.31
+  },
+  {
+    "year": 159,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.42
+  },
+  {
+    "year": 158,
+    "n_tree": -0.83,
+    "europe_temp_index": -0.38
+  },
+  {
+    "year": 157,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 156,
+    "n_tree": -0.97,
+    "europe_temp_index": -0.61
+  },
+  {
+    "year": 155,
+    "n_tree": -0.98,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 154,
+    "n_tree": -0.46,
+    "europe_temp_index": 0.01
+  },
+  {
+    "year": 153,
+    "n_tree": -0.81,
+    "europe_temp_index": -0.37
+  },
+  {
+    "year": 152,
+    "n_tree": -1.17,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 151,
+    "n_tree": -1.45,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 150,
+    "n_tree": -1.63,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 149,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 148,
+    "n_tree": -1.29,
+    "europe_temp_index": -0.2
+  },
+  {
+    "year": 147,
+    "n_tree": 0.09,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 146,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 145,
+    "n_tree": -0.33,
+    "europe_temp_index": 0
+  },
+  {
+    "year": 144,
+    "n_tree": -1.23,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 143,
+    "n_tree": -0.95,
+    "europe_temp_index": 0.2
+  },
+  {
+    "year": 142,
+    "n_tree": -0.75,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": 141,
+    "n_tree": -0.43,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 140,
+    "n_tree": 0.01,
+    "europe_temp_index": 0.61
+  },
+  {
+    "year": 139,
+    "n_tree": 0.19,
+    "europe_temp_index": 0.58
+  },
+  {
+    "year": 138,
+    "n_tree": -0.46,
+    "europe_temp_index": 0.04
+  },
+  {
+    "year": 137,
+    "n_tree": -0.43,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 136,
+    "n_tree": -0.5,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 135,
+    "n_tree": -0.01,
+    "europe_temp_index": 0.41
+  },
+  {
+    "year": 134,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.43
+  },
+  {
+    "year": 133,
+    "n_tree": -0.79,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 132,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 131,
+    "n_tree": -0.18,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 130,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.47
+  },
+  {
+    "year": 129,
+    "n_tree": -0.3,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 128,
+    "n_tree": -0.68,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 127,
+    "n_tree": -0.1,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 126,
+    "n_tree": -0.41,
+    "europe_temp_index": 0.23
+  },
+  {
+    "year": 125,
+    "n_tree": 0.04,
+    "europe_temp_index": 0.24
+  },
+  {
+    "year": 124,
+    "n_tree": -0.38,
+    "europe_temp_index": -0.06
+  },
+  {
+    "year": 123,
+    "n_tree": -0.57,
+    "europe_temp_index": 0.03
+  },
+  {
+    "year": 122,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 121,
+    "n_tree": 0.44,
+    "europe_temp_index": 0.08
+  },
+  {
+    "year": 120,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 119,
+    "n_tree": -0.74,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 118,
+    "n_tree": 0.02,
+    "europe_temp_index": 0.39
+  },
+  {
+    "year": 117,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.41
+  },
+  {
+    "year": 116,
+    "n_tree": 0.35,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 115,
+    "n_tree": 0.74,
+    "europe_temp_index": 0.48
+  },
+  {
+    "year": 114,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.65
+  },
+  {
+    "year": 113,
+    "n_tree": -0.43,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 112,
+    "n_tree": -0.12,
+    "europe_temp_index": 0.51
+  },
+  {
+    "year": 111,
+    "n_tree": 0.24,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 110,
+    "n_tree": -0.41,
+    "europe_temp_index": 0.06
+  },
+  {
+    "year": 109,
+    "n_tree": -0.15,
+    "europe_temp_index": 0.07
+  },
+  {
+    "year": 108,
+    "n_tree": 0.23,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 107,
+    "n_tree": -0.08,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 106,
+    "n_tree": -0.32,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 105,
+    "n_tree": 0.46,
+    "europe_temp_index": 0.49
+  },
+  {
+    "year": 104,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 103,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.19
+  },
+  {
+    "year": 102,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.34
+  },
+  {
+    "year": 101,
+    "n_tree": -0.55,
+    "europe_temp_index": 0.13
+  },
+  {
+    "year": 100,
+    "n_tree": -0.35,
+    "europe_temp_index": 0.21
+  },
+  {
+    "year": 99,
+    "n_tree": 0.53,
+    "europe_temp_index": 0.54
+  },
+  {
+    "year": 98,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.37
+  },
+  {
+    "year": 97,
+    "n_tree": -0.34,
+    "europe_temp_index": 0.05
+  },
+  {
+    "year": 96,
+    "n_tree": -0.03,
+    "europe_temp_index": -0.01
+  },
+  {
+    "year": 95,
+    "n_tree": -0.64,
+    "europe_temp_index": -0.32
+  },
+  {
+    "year": 94,
+    "n_tree": -0.91,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 93,
+    "n_tree": -0.12,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 92,
+    "n_tree": 0.3,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 91,
+    "n_tree": 0.53,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 90,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.29
+  },
+  {
+    "year": 89,
+    "n_tree": 0.44,
+    "europe_temp_index": 0.46
+  },
+  {
+    "year": 88,
+    "n_tree": 1.06,
+    "europe_temp_index": 1.13
+  },
+  {
+    "year": 87,
+    "n_tree": -0.35,
+    "europe_temp_index": -0.08
+  },
+  {
+    "year": 86,
+    "n_tree": -0.17,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 85,
+    "n_tree": -0.76,
+    "europe_temp_index": -0.43
+  },
+  {
+    "year": 84,
+    "n_tree": -0.74,
+    "europe_temp_index": -0.64
+  },
+  {
+    "year": 83,
+    "n_tree": -0.4,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 82,
+    "n_tree": -0.29,
+    "europe_temp_index": -0.16
+  },
+  {
+    "year": 81,
+    "n_tree": -0.75,
+    "europe_temp_index": -0.14
+  },
+  {
+    "year": 80,
+    "n_tree": -0.21,
+    "europe_temp_index": -0.52
+  },
+  {
+    "year": 79,
+    "n_tree": 0.53,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 78,
+    "n_tree": -0.38,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 77,
+    "n_tree": 0.47,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 76,
+    "n_tree": 0.23,
+    "europe_temp_index": 0.14
+  },
+  {
+    "year": 75,
+    "n_tree": 0.4,
+    "europe_temp_index": 0.4
+  },
+  {
+    "year": 74,
+    "n_tree": -0.27,
+    "europe_temp_index": -0.02
+  },
+  {
+    "year": 73,
+    "n_tree": 0.36,
+    "europe_temp_index": 0.6
+  },
+  {
+    "year": 72,
+    "n_tree": 0.23,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 71,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 70,
+    "n_tree": 0.17,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 69,
+    "n_tree": 0.38,
+    "europe_temp_index": 0.64
+  },
+  {
+    "year": 68,
+    "n_tree": 0.15,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 67,
+    "n_tree": 0.86,
+    "europe_temp_index": 0.95
+  },
+  {
+    "year": 66,
+    "n_tree": 0.64,
+    "europe_temp_index": 0.72
+  },
+  {
+    "year": 65,
+    "n_tree": -0.05,
+    "europe_temp_index": 0.3
+  },
+  {
+    "year": 64,
+    "n_tree": 0.59,
+    "europe_temp_index": 0.33
+  },
+  {
+    "year": 63,
+    "n_tree": -0.01,
+    "europe_temp_index": 0.29
+  },
+  {
+    "year": 62,
+    "n_tree": -0.57,
+    "europe_temp_index": -0.03
+  },
+  {
+    "year": 61,
+    "n_tree": 0.4,
+    "europe_temp_index": 0.73
+  },
+  {
+    "year": 60,
+    "n_tree": 0.31,
+    "europe_temp_index": 0.53
+  },
+  {
+    "year": 59,
+    "n_tree": -1.19,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 58,
+    "n_tree": -0.16,
+    "europe_temp_index": 0.55
+  },
+  {
+    "year": 57,
+    "n_tree": -0.77,
+    "europe_temp_index": -0.12
+  },
+  {
+    "year": 56,
+    "n_tree": -0.62,
+    "europe_temp_index": 0.25
+  },
+  {
+    "year": 55,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.83
+  },
+  {
+    "year": 54,
+    "n_tree": 0.27,
+    "europe_temp_index": 0.44
+  },
+  {
+    "year": 53,
+    "n_tree": 0.02,
+    "europe_temp_index": 0.59
+  },
+  {
+    "year": 52,
+    "n_tree": 0.11,
+    "europe_temp_index": 0.8
+  },
+  {
+    "year": 51,
+    "n_tree": -0.25,
+    "europe_temp_index": 0.62
+  },
+  {
+    "year": 50,
+    "n_tree": 0.18,
+    "europe_temp_index": 0.77
+  },
+  {
+    "year": 49,
+    "n_tree": -0.29,
+    "europe_temp_index": 0.72
+  },
+  {
+    "year": 48,
+    "n_tree": 0.55,
+    "europe_temp_index": 0.89
+  },
+  {
+    "year": 47,
+    "n_tree": 0.99,
+    "europe_temp_index": 1.53
+  },
+  {
+    "year": 46,
+    "n_tree": 0.49,
+    "europe_temp_index": 1.47
+  },
+  {
+    "year": 45,
+    "n_tree": 0.14,
+    "europe_temp_index": 0.86
+  },
+  {
+    "year": 44,
+    "n_tree": 0.46,
+    "europe_temp_index": 0.87
+  },
+  {
+    "year": 43,
+    "n_tree": 0.78,
+    "europe_temp_index": 1.04
+  },
+  {
+    "year": 42,
+    "n_tree": 0.61,
+    "europe_temp_index": 0.73
+  },
+  {
+    "year": 41,
+    "n_tree": 0.49,
+    "europe_temp_index": 0.62
+  },
+  {
+    "year": 40,
+    "n_tree": -0.21,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 39,
+    "n_tree": 0.96,
+    "europe_temp_index": 0.81
+  },
+  {
+    "year": 38,
+    "n_tree": 0.82,
+    "europe_temp_index": 1
+  },
+  {
+    "year": 37,
+    "n_tree": 1.2,
+    "europe_temp_index": 0.94
+  },
+  {
+    "year": 36,
+    "n_tree": 0.63,
+    "europe_temp_index": 0.47
+  },
+  {
+    "year": 35,
+    "n_tree": 2.26,
+    "europe_temp_index": 1.12
+  },
+  {
+    "year": 34,
+    "n_tree": 1.86,
+    "europe_temp_index": 0.92
+  },
+  {
+    "year": 33,
+    "n_tree": 0.71,
+    "europe_temp_index": 0.31
+  },
+  {
+    "year": 32,
+    "n_tree": 0.81,
+    "europe_temp_index": 0.27
+  },
+  {
+    "year": 31,
+    "n_tree": 0.31,
+    "europe_temp_index": -0.18
+  },
+  {
+    "year": 30,
+    "n_tree": 0.07,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 29,
+    "n_tree": -1.48,
+    "europe_temp_index": -0.66
+  },
+  {
+    "year": 28,
+    "n_tree": 0.26,
+    "europe_temp_index": 0.16
+  },
+  {
+    "year": 27,
+    "n_tree": 0.32,
+    "europe_temp_index": 0.42
+  },
+  {
+    "year": 26,
+    "n_tree": -0.01,
+    "europe_temp_index": -0.21
+  },
+  {
+    "year": 25,
+    "n_tree": 0.3,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 24,
+    "n_tree": -0.7,
+    "europe_temp_index": -0.57
+  },
+  {
+    "year": 23,
+    "n_tree": 0.05,
+    "europe_temp_index": -0.09
+  },
+  {
+    "year": 22,
+    "n_tree": -0.51,
+    "europe_temp_index": -0.28
+  },
+  {
+    "year": 21,
+    "n_tree": -1.14,
+    "europe_temp_index": -0.69
+  },
+  {
+    "year": 20,
+    "n_tree": -1.02,
+    "europe_temp_index": -0.88
+  },
+  {
+    "year": 19,
+    "n_tree": -0.07,
+    "europe_temp_index": 0.02
+  },
+  {
+    "year": 18,
+    "n_tree": -0.23,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 17,
+    "n_tree": 0.27,
+    "europe_temp_index": 0.17
+  },
+  {
+    "year": 16,
+    "n_tree": -0.82,
+    "europe_temp_index": -0.15
+  },
+  {
+    "year": 15,
+    "n_tree": 0.03,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 14,
+    "n_tree": -0.02,
+    "europe_temp_index": -0.04
+  },
+  {
+    "year": 13,
+    "n_tree": 0.04,
+    "europe_temp_index": 0.12
+  },
+  {
+    "year": 12,
+    "n_tree": -0.32,
+    "europe_temp_index": 0.36
+  },
+  {
+    "year": 11,
+    "n_tree": -0.37,
+    "europe_temp_index": -0.34
+  },
+  {
+    "year": 10,
+    "n_tree": -0.84,
+    "europe_temp_index": -0.6
+  },
+  {
+    "year": 9,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.1
+  },
+  {
+    "year": 8,
+    "n_tree": -0.24,
+    "europe_temp_index": 0.15
+  },
+  {
+    "year": 7,
+    "n_tree": 0.5,
+    "europe_temp_index": 0.74
+  },
+  {
+    "year": 6,
+    "n_tree": 0.16,
+    "europe_temp_index": 0.67
+  },
+  {
+    "year": 5,
+    "n_tree": 0.25,
+    "europe_temp_index": 0.32
+  },
+  {
+    "year": 4,
+    "n_tree": -0.28,
+    "europe_temp_index": 0.22
+  },
+  {
+    "year": 3,
+    "n_tree": -0.73,
+    "europe_temp_index": -0.24
+  },
+  {
+    "year": 2,
+    "n_tree": -0.6,
+    "europe_temp_index": -0.26
+  },
+  {
+    "year": 1,
+    "n_tree": -0.18,
+    "europe_temp_index": 0.09
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  },
+  {
+    "year": "NA",
+    "n_tree": "NA",
+    "europe_temp_index": "NA"
+  }
+]
