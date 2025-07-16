@@ -1,0 +1,250 @@
+/* Wird CSS mit einem Stern selektriert, wird der Style auf alle HTML-Elemente angewendet */
+* {
+    /* box-sizing: border-box
+    
+    tatsächliche Größe inklusive Ränder,etc 
+    "Wenn Sie die Breite eines Elements auf 100 Pixel festlegen, werden diese 100 Pixel alle von Ihnen hinzugefügten Ränder oder Füllungen enthalten, und das Inhaltsfeld wird verkleinert, um diese zusätzliche Breite zu absorbieren. Dadurch wird die Größenanpassung von Elementen normalerweise viel einfacher." 
+    *** Link: https://developer.mozilla.org/de/docs/Web/CSS/box-sizing ***
+    */
+    box-sizing: border-box;
+
+    /* Ich setze gerne für alle Elemente padding und margin auf 0, weil ich Abstände selbst definieren will.
+    - Margin: Wird zum Positionieren von Elemente genutzt und ist der Abstand nach außen.
+        - Styles wie eine Hintergrundfarbe wird hier nicht angewendet, weil der Abstand außerhalb vom Element liegt.
+    - Padding: Das ist der Abstand innerhalb vom Element, der Zwischenraum vom Inhalt und der Elementgrenze.
+        - Damit kann man z. B. einen Button vergrößern, die Hintergrundfarbe wird auch im Padding verwendet.
+
+    *** Link: https://www.mediaevent.de/css/margin.html ***
+    */
+    padding: 0;
+    margin: 0;
+}
+
+/* HTML-Tags können direkt per Name selektiert werden: body, div, p, etc. */
+body {
+    background-color: #110419;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* IDs können mit einer Raute selektiert werden. */
+#renderer {
+    /* background-color: rgb(15, 15, 15); */
+    width: 100vw;
+    height: 100vh;
+
+    /* Wenn in einem Container absolute Elemente stecken, muss der "parent"-Container relativ definiert sein, dann wird das Koordinatensystem vom "parent" genutzt.
+    Hier hat z. B. der Renderer-Container ein margin von 5px. Somit beginnt das Balkendiagramm erst bei 5px (x- und y-Position)
+    */
+    position: relative;
+}
+
+.dot {
+    background-color: white;
+    position: absolute;
+
+    /*  border-radios gibt einem Element abgerundete Ecken.
+    Diese können z. B. als Pixel oder in % angegeben werden.
+    50% entspricht hier 50% von 20px an jeder Ecke.
+    -> Radius von 10px bei 20x20px -> Kreis */
+    border-radius: 50%;
+
+    transition: all 0.3s ease-in-out;
+}
+
+/* #diagram-title {
+    text-align: left;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+} */
+
+/* #genderLabel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+} */
+
+/* #genderCheckbox {
+    accent-color: #0066bb;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 8px 0 0;
+} */
+
+/* .checkbox-item input[type="checkbox"] {
+    accent-color: #0066bb;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-right: 100px;
+} */
+
+/* #generationCheckbox {
+    accent-color: #0066bb;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 8px;
+} */
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0; /* Kein Abstand nach unten */
+}
+
+.yearSlider {
+    position:absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 800px;
+    height: 16px;
+     accent-color: #0066bb;
+}
+
+#yearSliderLabel {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center  ;
+}
+
+/* Überschrift und Checkboxen nebeneinander oben */
+.header-row {
+    display: flex;
+    justify-content: flex-start; /* Überschrift und Checkboxen direkt nebeneinander */
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    padding: 0 2vw;
+    z-index: 100;
+    gap: 1050px; /* Abstand zwischen Überschrift und Checkboxen */
+}
+
+#diagram-title {
+    position: static;
+    margin-bottom: 0;
+    font-size: 4rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+
+}
+
+.checkbox-container {
+    position: static;
+    display: flex;
+    flex-direction: row; /* NEU: nebeneinander */
+    align-items: center;
+    gap: 32px; /* Abstand zwischen den Checkboxen */
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.checkbox-label {
+    font-size: 2rem;
+    color: #888;
+    cursor: pointer;
+    margin-right: 32px;
+    transition: color 0.2s;
+    user-select: none;
+    font-weight: bold; /* Immer fett, damit nichts springt */
+}
+
+input[type="checkbox"]:checked + .checkbox-label {
+    color: #fff;
+    /* font-weight: bold;  <-- Diese Zeile kannst du entfernen */
+}
+
+.checkbox-label:last-child {
+    margin-right: 0;
+}
+
+#slider-container {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  z-index: 201;
+}
+
+#slider-track {
+  position: relative;
+  width: 800px;      /* Länge der Slider-Bahn */
+  height: 40px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 20px;
+  margin: 0 16px;
+}
+
+#slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 40px;
+  /* background: #222e4f;   <-- ENTFERNEN oder auskommentieren */
+  background: transparent;   /* NEU */
+  color: #fff;
+  /* border-radius: 20px;    <-- ENTFERNEN oder auskommentieren */
+  border-radius: 0;          /* NEU */
+  text-align: center;
+  line-height: 40px;
+  font-size: 2rem;
+  cursor: pointer;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); <-- ENTFERNEN oder auskommentieren */
+  box-shadow: none;          /* NEU */
+  user-select: none;
+  z-index: 200;
+  transition: left 0.1s;
+}
+
+
+.slider-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  cursor: pointer;
+  /* Abstand zu Bahn */
+}
+
+#slider-left {
+  border-width: 15px 20px 15px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+#slider-right {
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.slider-arrow:hover {
+  border-right-color: rgb(193, 193, 193) !important;
+  border-left-color: rgb(193, 193, 193) !important;
+}

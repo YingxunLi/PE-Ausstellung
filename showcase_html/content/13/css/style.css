@@ -1,0 +1,311 @@
+body, html {
+  margin: 0;
+  background-color: #1f1f49;
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+#title {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#map {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#controls {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  width: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+#buttonGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+#yearSlider {
+  width: 300px;
+  margin: 0 8px;
+}
+#yearLabel {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+#filters {
+  position: absolute;
+  left: 30px;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.filter-btn {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+.filter-btn.active {
+  background-color: white;
+  color: #2e2f57;
+}
+.country-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4px;
+}
+.country-label {
+  font-size: 0.6em;
+  margin-top: 4px;
+}
+.vertical-line {
+  width: 1px;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 5px;
+  position: relative;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.8;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              height 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              left 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              top 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.circle:hover {
+  opacity: 1;
+  z-index: 2;
+}
+#tooltip {
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  pointer-events: none;
+  font-size: 0.9em;
+  max-width: 200px;
+  z-index: 9999;
+}
+.hidden {
+  display: none;
+}
+
+
+#dualBarChart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 20px 20px 20px;
+    gap: 1px;
+}
+
+.country-row {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+    width: 210px;
+    height: 11.5px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.bar-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.bar-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.le-bar {
+    height: 8px;
+    border-radius: 4px;
+    background: orange;
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-right: 0;
+    transition: width 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.country-label {
+    font-size: 0.9em;
+    width: 24px;
+    text-align: center;
+    z-index: 3;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    display: block;
+    margin: 0 2px;
+}
+
+.alcohol-bar, .income-bar {
+    position: static;
+    height: 8px;
+    width: 60px;
+    border-radius: 4px;
+    z-index: 2;
+    display: block;
+    margin-left: 0;
+    transition: width 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.alcohol-bar {
+    background-color: #00CFFF;
+}
+
+.income-bar {
+    background-color: #4CAF50;
+}
+
+button {
+  position: static;
+  padding: 6px 12px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+button:hover {
+  background: white;
+  color: #2e2f57;
+}
+
+button#leAlcoholButton {
+  bottom: 30px;
+  left: 30px;
+}
+
+button#leIncomeButton {
+  bottom: 30px;
+  left: 300px;
+}
+
+button.active, .filter-btn.active {
+  background-color: white;
+  color: #2e2f57;
+  border: 2px solid #2e2f57;
+}
+
+.sort-le.active {
+  color: orange !important;
+}
+.sort-a.active {
+  color: #00CFFF !important;
+}
+.sort-i.active {
+  color: #4CAF50 !important;
+}
+.sort-abc.active {
+  color: #FF5900 !important;
+}
+
+#sortButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-left: 16px;
+}
+
+#playPauseBtn {
+  background: #00CFFF;
+  color: #191936;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  padding-right: px;
+}
+#playPauseBtn:hover {
+  background: #0099bb;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+#leLegend {
+  position: fixed;
+  top: 50%;
+  right: 32px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1001;
+}
+.legend-block {
+  width: 8px;
+  height: 100px;
+  margin: 0 0 0px 0;
+  border-radius: 0px;
+  display: inline-block;
+}
+.legend-entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.legend-label {
+  display: inline-block;
+  font-size: 0.8em;
+  color: white;
+  margin-left: 8px;
+  min-width: 36px;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 0.6em;
+  font-weight: normal;
+  opacity: 0.7;
+  margin-left: 8px;
+}

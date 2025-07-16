@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Life Expectancy Visualization</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="title">Life Expectancy <span class="subtitle">(2000-2015)</span></div>
+  <div id="map"></div>
+  <div id="tooltip" class="hidden"></div>
+  <div id="controls">
+    <button id="leMapButton">Life Expectancy Map</button>
+    <input type="range" id="yearSlider" min="2000" max="2015" value="2000"/>
+    <label for="yearSlider" id="yearLabel">2000</label>
+    <button id="playPauseBtn">Play</button>
+    <button id="leAlcoholButton">Life Expectancy - Alcohol Consumption</button>
+    <button id="leIncomeButton">Life Expectancy - Income</button>
+    <div id="sortButtonsContainer"></div>
+  </div>
+
+<div id="dualBarChart" class="hidden"></div>
+<div id="leLegend">
+  <div class="legend-entry"><div class="legend-block" style="background:#FF5900"></div><span class="legend-label">85</span></div>
+  <div class="legend-entry"><div class="legend-block" style="background:#FFA100"></div><span class="legend-label">75</span></div>
+  <div class="legend-entry"><div class="legend-block" style="background:#FFD829"></div><span class="legend-label">65</span></div>
+  <div class="legend-entry"><div class="legend-block" style="background:#FFEF74"></div><span class="legend-label">55</span></div>
+  <div class="legend-entry"><div class="legend-block" style="background:white"></div><span class="legend-label">45</span></div>
+</div>
+</body>
+
+
+  <script src="lib/gmynd.js"></script>
+  <script src="lib/chroma.min.js"></script>
+  <script src="lib/g.js"></script>
+  <script src="countrylonlat.js"></script>
+  <script src="data.js"></script>
+  <script src="js/main.js"></script>
+
+</html>

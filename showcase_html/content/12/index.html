@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgabe 3_2 – Sunburst Diagram</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/chroma.min.js"></script>
+</head>
+
+<body>
+    <div id="renderer"></div>
+
+
+    <div class="header-row">
+        <h1 id="diagram-title">Suicide Rates</h1>
+        <div class="checkbox-container">
+            <input type="checkbox" id="suicidesCheckbox" class="visually-hidden" checked>
+            <label for="suicidesCheckbox" class="checkbox-label">Suicides</label>
+            <input type="checkbox" id="genderCheckbox" class="visually-hidden">
+            <label for="genderCheckbox" class="checkbox-label">Gender</label>
+            <input type="checkbox" id="generationCheckbox" class="visually-hidden">
+            <label for="generationCheckbox" class="checkbox-label">GDP per Capita</label>
+        </div>
+    </div>
+    <!-- 
+    <div id="slider-container">
+        <div id="slider-left" class="slider-arrow"></div>
+        <div id="slider-track">
+
+        </div>
+        <div id="slider-right" class="slider-arrow"></div>
+    </div> -->
+
+    <div id="slider-container">
+  <div id="slider-left" class="slider-arrow"></div>
+  <div id="slider-track">
+    <div id="slider">1985</div>
+  </div>
+  <div id="slider-right" class="slider-arrow"></div>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>

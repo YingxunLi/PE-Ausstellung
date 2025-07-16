@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Healthy Diet Cost</title>
-    <script src="lib/gmynd.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Visualisierung</title>
+  <script src="lib/gmynd.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div id="renderer">
-        <!-- Labels für den Hover- und Click-Event.
-        Hier werden die entsprechenden Inhalte angezeigt. -->
-        <!-- <div id="hoverLabel"></div>
-        <div id="clickLabel"></div> -->
-        <svg id="svg"></svg>
+
+  <div id="renderer">
+    
+    <!-- Überschrift -->
+    <h1 class="title-heading">Student Depression in India</h1>
+
+    <!-- Control Box -->
+    <div class="control-box">
+
+<!-- Ringgruppen -->
+<div class="group-section ring-section">
+  <input type="radio" name="viewModeRings" value="age" id="ring-age" checked>
+  <label for="ring-age">Age</label><br>
+
+  <input type="radio" name="viewModeRings" value="studyhours" id="ring-studyhours">
+  <label for="ring-studyhours">Study hours</label><br>
+
+  <input type="radio" name="viewModeRings" value="financial" id="ring-financial">
+  <label for="ring-financial">Financial stress</label><br>
+
+  <input type="radio" name="viewModeRings" value="cgpa" id="ring-cgpa">
+  <label for="ring-cgpa">Academic average</label>
+</div>
+
+      <!-- Farbgruppen -->
+<div class="group-section">
+  <input type="radio" name="viewModeColor" value="gender" id="color-gender" checked>
+  <label for="color-gender">Gender</label><br>
+
+  <input type="radio" name="viewModeColor" value="suizid" id="color-suizid">
+  <label for="color-suizid">Suicidal thoughts</label><br>
+
+  <input type="radio" name="viewModeColor" value="familie" id="color-familie">
+  <label for="color-familie">Family background</label>
+</div>
+
+
     </div>
 
-    <script src="foodcost.js"></script>
-    <script src="js/main.js"></script>
-</body>
+    <!-- Info Box -->
+    <div id="info-box"></div>
 
+    <!-- Visualisierungscontainer -->
+    <div id="diagram-container"></div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
 </html>
