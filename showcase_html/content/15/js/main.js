@@ -342,7 +342,7 @@ function drawCountryCostChart(transitionMode) {
         document.querySelector("#renderer").appendChild(bar);
 
         bar.addEventListener('mouseenter', (event) => {
-          tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Select All: $${total.toFixed(2)} intl $/person/day (PPP, constant 2021)`;
+          tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Select All: $${total.toFixed(2)})`;
           tooltip.style.display = "block";
           positionTooltip(event, tooltip);
           bar.classList.add('active');
@@ -370,7 +370,7 @@ function drawCountryCostChart(transitionMode) {
         barTopDiv.style.transition = "height 0.5s, top 0.5s";
 
         barTopDiv.addEventListener("mouseenter", (event) => {
-          tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>${selectedFoodKey}: $${value.toFixed(2)} intl $/person/day (PPP, constant 2021)`;
+          tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>${selectedFoodKey}: $${value.toFixed(2)} `;
           tooltip.style.display = "block";
           positionTooltip(event, tooltip);
           barTopDiv.classList.add('active');
@@ -403,7 +403,7 @@ function drawCountryCostChart(transitionMode) {
           seg.style.transition = "height 0.5s, top 0.5s";
 
           seg.addEventListener("mouseenter", (event) => {
-            tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>${food.key}: $${value.toFixed(2)} intl $/person/day (PPP, constant 2021)`;
+            tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>${food.key}: $${value.toFixed(2)}`;
             tooltip.style.display = "block";
             positionTooltip(event, tooltip);
           });
@@ -668,7 +668,7 @@ function drawCountryCostChart(transitionMode) {
 
       // Interaktion: income
       barIncome.addEventListener('mouseenter', () => {
-        tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Income: $${income.toFixed(2)} Intl $/person/day (PPP, constant 2021)`;
+        tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Income: $${income.toFixed(2)}`;
         tooltip.style.display = "block";
         const barRect = barIncome.getBoundingClientRect();
         tooltip.style.left = `${barRect.right + 10}px`;
@@ -686,7 +686,7 @@ function drawCountryCostChart(transitionMode) {
 
       // Interaktion: cost
       barCost.addEventListener('mouseenter', () => {
-        tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Cost: $${cost.toFixed(2)} intl $/person/day (PPP, constant 2021)`;
+        tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Cost: $${cost.toFixed(2)}`;
         tooltip.style.display = "block";
         const barRect = barCost.getBoundingClientRect();
         tooltip.style.left = `${barRect.right + 10}px`;
@@ -729,7 +729,7 @@ function drawCountryCostChart(transitionMode) {
         let val = fieldValue;
         if (currentField === "Cost") val = `$${fieldValue.toFixed(2)}`;
         if (currentField === "Vergleich") val = `${fieldValue.toFixed(2)}%`;
-        if (currentField === "TagGNI") val = `$${fieldValue.toFixed(2)} Intl $/person/day (PPP, constant 2021)`;
+        if (currentField === "TagGNI") val = `$${fieldValue.toFixed(2)}`;
         tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>Ratio: ${val}`;
         tooltip.style.display = "block";
         positionTooltip(event, tooltip);
@@ -768,7 +768,7 @@ function drawCountryCostChart(transitionMode) {
       bar.style.top = `${yPos}px`;
 
       bar.addEventListener('mouseenter', () => {
-        tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>$${cost.toFixed(2)} intl $/person/day (PPP, constant 2021)`;
+        tooltip.innerHTML = `<b>${country["Country Name"]}</b><br>$${cost.toFixed(2)} `;
         tooltip.style.display = "block";
         positionTooltip(event, tooltip);
         bar.classList.add('active');
@@ -1166,7 +1166,7 @@ function drawScatterHoverLines(country, margin, chartWidth, chartHeight, minX, m
   xLabel.id = "scatter-hover-xlabel";
   xLabel.style.left = `${margin.left + yAxisSpace + x - 30}px`;
   xLabel.style.top = `${margin.top + chartHeight + 12}px`;
-  xLabel.textContent = `Income: $${parseFloat(country["TagGNI"]).toFixed(2)} Intl $/person/day (PPP, constant 2021)`;
+  xLabel.textContent = `Income: $${parseFloat(country["TagGNI"]).toFixed(2)}`;
   document.querySelector("#renderer").appendChild(xLabel);
 
   let yLabel = document.createElement("div");
@@ -1370,7 +1370,7 @@ function drawOverviewChart() {
 
     // tooltip Interaktion
     group.addEventListener("mouseenter", (event) => {
-      tooltip.innerHTML = `<b>${d["Country Name"]}</b><br>Income: $${parseFloat(d.TagGNI).toFixed(2)} Intl $/person/day (PPP, constant 2021)<br>Cost: $${parseFloat(d.Cost).toFixed(2)} Intl $/person/day (PPP, constant 2021)<br>Malnutrition: ${parseFloat(d.Unterernährung).toFixed(2)}%<br>Ratio: ${ratio.toFixed(2)}%`;
+      tooltip.innerHTML = `<b>${d["Country Name"]}</b><br>Income: $${parseFloat(d.TagGNI).toFixed(2)}<br>Cost: $${parseFloat(d.Cost).toFixed(2)} <br>Malnutrition: ${parseFloat(d.Unterernährung).toFixed(2)}%<br>Ratio: ${ratio.toFixed(2)}%`;
       tooltip.style.display = "block";
       positionTooltip(event, tooltip);
       if (incomeCircle) incomeCircle.classList.add("hover");
