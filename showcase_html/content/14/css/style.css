@@ -1,423 +1,261 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    /* overflow: hidden; */
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* Wird CSS mit einem Stern selektriert, wird der Style auf alle HTML-Elemente angewendet */
 * {
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box
+    
+    tatsächliche Größe inklusive Ränder,etc 
+    "Wenn Sie die Breite eines Elements auf 100 Pixel festlegen, werden diese 100 Pixel alle von Ihnen hinzugefügten Ränder oder Füllungen enthalten, und das Inhaltsfeld wird verkleinert, um diese zusätzliche Breite zu absorbieren. Dadurch wird die Größenanpassung von Elementen normalerweise viel einfacher." 
+    *** Link: https://developer.mozilla.org/de/docs/Web/CSS/box-sizing ***
+    */
+    box-sizing: border-box; 
+
+    /* Ich setze gerne für alle Elemente padding und margin auf 0, weil ich Abstände selbst definieren will.
+    - Margin: Wird zum Positionieren von Elemente genutzt und ist der Abstand nach außen.
+        - Styles wie eine Hintergrundfarbe wird hier nicht angewendet, weil der Abstand außerhalb vom Element liegt.
+    - Padding: Das ist der Abstand innerhalb vom Element, der Zwischenraum vom Inhalt und der Elementgrenze.
+        - Damit kann man z. B. einen Button vergrößern, die Hintergrundfarbe wird auch im Padding verwendet.
+
+    *** Link: https://www.mediaevent.de/css/margin.html ***
+    */
     padding: 0;
     margin: 0;
 }
 
+/* HTML-Tags können direkt per Name selektiert werden: body, div, p, etc. */
 body {
-    background-color: rgb(39, 39, 39);
-    color: white;
+    background-color: rgb(0, 50, 20);
+    color:white;
+    font-family: 'tektur', sans-serif; /* Schriftart Tektura */
 }
 
+/* .filterContainer {
+  font-family: 'tektur', sans-serif; /* Schriftart Tektura */
+
+
+/* IDs können mit einer Raute selektiert werden. */
 #renderer {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
     position: relative;
-    /* overflow: hidden; */
+    width: 100vw;
+    height: 100vh;
+    background: hsl(240, 100%, 3%);
+    /* background: conic-gradient(red 0% 50%, blue 50% 75%, green 75% 100%); */
+
+    overflow: hidden;
+
+    /* background-color: rgba(255, 255, 255, 0.05);
+    width: 800px;
+    height: 800px; */
+
+    /* Wenn in einem Container absolute Elemente stecken, muss der "parent"-Container relativ definiert sein, dann wird das Koordinatensystem vom "parent" genutzt.
+    Hier hat z. B. der Renderer-Container ein margin von 5px. Somit beginnt das Balkendiagramm erst bei 5px (x- und y-Position)
+    */
+
 }
 
-/* ----------- Top Area -----------  */
-#top-area {
+
+.btn {
+font-family: 'tektur', sans-serif;
+font-size: 10px;
+
+}
+
+/* #legend {
     position: absolute;
-    top: 30px;
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* align-items: center; */
-    align-items: flex-start;
-    z-index: 20;
-    pointer-events: auto;
-}
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 12px;
+  }
+  .legend-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    border-radius: 50%;
+  } */
 
-#top-area > div:first-child {
+  .legend {
+    position: absolute;
+    top: 50px;      /* statt bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    padding: 8px;
+    border-radius: 8px;
+    z-index: 10;
+  }
+  
+  .legend-item {
     display: flex;
     align-items: center;
-}
-
-/* ----------- title -----------  */
-.main-title {
-    font-size: 30px;
-    font-weight: 700;
-    color: #6B7C8D;
-    letter-spacing: -1px;
-    margin-top: 24px;
-    margin-bottom: 12px;
-    margin-left: 0;
-    text-align: left;
-    line-height: 1.1;
-}
-
-/* -----------  Button container -----------  */
-.right-area {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-}
-.left-area {
-  display: flex;
-  gap: 12px;
-}
-.btn-row {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.top-btn {
-    font-size: 15px;
-    padding: 6px 18px;
-    border: none;
-    border-radius: 18px;
-    background: #E1E5E8;
-    color: #6B7C8D;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s;
-    font-weight: normal;
-    outline: none;
-}
-
-.top-btn.inactive {
-    color: #E1E5E8;
-    font-weight: normal;
-}
-
-.top-btn.active {
-    background: #FD96B3;
-    color: #FFFFFF;
-}
-
-.top-btn:hover {
-    background: #FED5E1;
-    color: #fff;
-}
-
-.top-btn.main,
-.top-btn.affordability,
-.top-btn.overview {
-    font-size: 20px;
-    padding: 4px 0px;
-    margin-left: 0px;
-    background: transparent;
-    color: #6B7C8D;
-    font-weight: bold;
-    transition: background 0.2s, color 0.2s;
-}
-
-.top-btn.main {
-    margin-left: 0px;
-}
-
-.top-btn.affordability,
-.top-btn.overview {
-    margin-left: 30px;
-}
-
-.top-btn.main.inactive,
-.top-btn.affordability.inactive,
-.top-btn.overview.inactive {
-    background: transparent;
-    color: #E1E5E8;
-}
-
-.top-btn.main:active,
-.top-btn.affordability:active,
-.top-btn.overview:active,
-.top-btn.main:hover,
-.top-btn.affordability:hover,
-.top-btn.overview:hover {
-    background: transparent;
-    color: #6B7C8D;
-}
-
-
-/* ----------- bar -----------  */
-.bar {
-    position: absolute;
-    transition:
-        height 0.3s ease,
-        background-color 0.3s cubic-bezier(.4,0,.2,1),
-        transform 0.3s cubic-bezier(.4,0,.2,1);
-    border-radius: 8px;
-    opacity: 1;
-    background-color: #FED5E1;
-    z-index: 1;
-    border: 0 solid transparent;
-}
-
-.bar.active,
-.bar:hover {
-    background-color: #FD96B3 !important;
-    z-index: 10;
-}
-
-.bar.income {
-    background-color: #E1E5E8;
-    opacity: 0.5;
-    z-index: 1;
-}
-
-.bar.cost {
-    background-color: #FED5E1;
-    opacity: 1;
-    z-index: 2;
-}
-
-.bar.active {
-    background-color: #FD96B3 !important;
-}
-
-.bar.income.active,
-.bar.income:hover  {
-    background-color: #6B7C8D !important;
-}
-
-.bar.ratio-bg {
-    background-color: #E1E5E8;
-    opacity: 0.5;
-    z-index: 1;
-}
-
-.bar.ratio-bg:hover {
-    background-color: #E1E5E8 !important; /* keine interaktion */
-}
-.bar.ratio-fg {
-    background-color: #FED5E1;
-    opacity: 1;
-    z-index: 2;
-}
-
-.bar.cost-background {
-    background-color: #E1E5E8;
-    opacity: 0.5;
-    z-index: 1;
-}
-
-/* ----------- dot -----------  */
-.bar.bar-to-dot {
-    background-color: #FD96B3;
-    opacity: 0.4;
+    margin-bottom: 6px;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
-    z-index: 2;
-    transition: all 0.5s cubic-bezier(.4,0,.2,1);
-}
-
-.bar.bar-to-dot.active,
-.bar.bar-to-dot:hover {
-    opacity: 1;
-    background-color: #FD96B3;
-    /* transform: scale(1.2); */
-    z-index: 1000;
-}
-
-.dot-label {
-  position: absolute;
-  color: #6B7C8D;
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif; 
-  pointer-events: none;
-  padding: 8px 12px;
-  z-index: 1000;
-  border-radius: 6px;
-  white-space: nowrap;
-  display: none; 
-  font-weight: normal;
-  line-height: 1.4;
-}
-
-.dot-label b {
-  font-weight: bold;
-}
-
-/* ----------- x & y -----------  */
-.axis-x-tick {
-  position: absolute;
-  width: 6px;
-  height: 12px;
-  border-radius: 3px;
-  background: #E1E5E8;
-  z-index: 1;
-}
-
-.axis-y-tick {
-  position: absolute;
-  width: 12px;
-  height: 6px;
-  border-radius: 3px;
-  background: #E1E5E8;
-  z-index: 1;
-}
-
-.axis-x-tick-label,
-.axis-y-tick-label {
-  position: absolute;
-  color: #E1E5E8;
-  font-size: 12px;
-  font-family: 'Poppins', sans-serif; 
-  z-index: 1;
-}
-
-#scatter-hover-vline {
-  position: absolute;
-  z-index: 1;
-  width: 2px;
-  background: repeating-linear-gradient(0deg, #E1E5E8 0 5px, transparent 5px 15px);
-}
-#scatter-hover-hline {
-  position: absolute;
-  z-index: 1;
-  height: 2px;
-  background: repeating-linear-gradient(90deg, #E1E5E8 0 5px, transparent 5px 15px);
-}
-
-#scatter-hover-xlabel,
-#scatter-hover-ylabel {
-  position: absolute;
-  color: #6B7C8D;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif; 
-  background: transparent;
-  padding: 2px 6px;
-  border-radius: 4px;
-  z-index: 1000;
-}
-
-.axis-x-tick,
-.axis-x-tick-label,
-.axis-y-tick,
-.axis-y-tick-label {
-  display: none;
-}
-.axis-x-tick.show,
-.axis-x-tick-label.show,
-.axis-y-tick.show,
-.axis-y-tick-label.show {
-  display: block;
-}
-
-.axis-x-minor-tick,
-.axis-y-minor-tick {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  border-radius: 4px;
-  background: #E1E5E8;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.axis-x-minor-tick.show,
-.axis-y-minor-tick.show {
-    opacity: 1;
-   background: #E1E5E8; 
-
-}
-
-/* ----------- tooltip -----------  */
-.tooltip {
-    position: absolute;
-    pointer-events: none;
-    background: rgba(107,124,141,0.7);
-    color: #fff;
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    display: none;
-    z-index: 1000;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+  
+  .button {
+    font-family: 'Tektura', sans-serif;
+    font-size: 12px;
+    margin: 1px;
+    padding: 4px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
     white-space: nowrap;
-}
-
-.tooltip b {
-    font-weight: bold;
-}
-
-/* ----------- Checkbox -----------  */
-#food-legend-area {
-  position: absolute;
-  z-index: 10;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-#food-legend-area .legend-item {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: background 0.2s;
-  justify-content: flex-start;
-  font-size: 15px;
-  color: #6B7C8D;
-}
-
-#food-legend-area .legend-color{
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  margin-right: 12px;
-  border-radius: 4px;
-  border: 2px solid transparent;
-  transition: border 0.2s, transform 0.2s;
-}
-#food-legend-area .legend-item.selected .legend-color,
-#food-legend-area .legend-item:hover .legend-color {
-  border: 2px solid #FD96B3;
-  transform: scale(1.12);
-}
-
-/* ----------- overview Kreise -----------  */
-.overview-circle-green {
-    position: absolute;
-    border-radius: 50%;
-    /* background: #02947B;
-    opacity: 0.5; */
-    background: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.3s, color 0.3s;
+  }
+  
+  .button.inactive {
+    color: rgba(255, 255, 255, 0.211);
+    cursor: default;
     pointer-events: none;
-    opacity: 0.5;
-    transition: opacity 0.2s;
-}
+  }
+  
 
-.overview-circle-pink {
+/* .dot {
     position: absolute;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
-    /* background: #FD96B3;
-    opacity: 0.4; */
-    background: none;
-    pointer-events: none;
-    opacity: 0.4;
-    transition: opacity 0.2s;
-}
-
-.overview-circle-unter {
+    pointer-events: auto;
+  } */
+  /* #switchView {
     position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255,255,255,0.15);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+  } */
+  
+  /* .dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    background: #E1E5E8;
-    opacity: 0.5;
-    pointer-events: none;
-}
+    pointer-events: auto;
+    transition: background-color 0.2s ease;
+  } */
 
-.overview-circle-green.hover,
-.overview-circle-pink.hover {
-    opacity: 1 !important;
+  .dot {
+border-radius: 50%;
+    transform-origin: center center;
+    /* transform: scale(0);
+    opacity: 0; */
+    /* transition: transform ease, opacity ease; */
+  }
+  
+  .dot.active {
+    /* transform: scale(0.5); */
+    opacity: 1;
+  }
+
+  .dot.hidden {
+    opacity: 0 !important;
+    transform: scale(0.001) !important;
+    pointer-events: none !important;
+  }
+  
+/* .custom-slider {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
     z-index: 1000;
+  } */
+
+
+
+  
+
+  .center-ui {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    opacity: 0.9;
+    z-index: 10;
+    pointer-events: auto;
+  }
+  
+  .info-box {
+    position: absolute;
+    /* top: 10px;
+    left: 10px;
+    padding: 6px 12px; */
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(214, 214, 214);
+    /* font-size: 12px; */
+    border: 1px solid rgba(171, 171, 171, 0.254);
+    border-radius: 6px;
+    z-index: 1000;
+    pointer-events: none; /* verhindert, dass Maus-Events blockiert werden */
+  }
+  
+  
+  
+
+    /* background-color: white;
+    position: absolute;
+
+    /*  border-radios gibt einem Element abgerundete Ecken.
+    Diese können z. B. als Pixel oder in % angegeben werden.
+    50% entspricht hier 50% von 20px an jeder Ecke.
+    -> Radius von 10px bei 20x20px -> Kreis */
+    /* border-radius: 50%; */
+
+
+.earthDot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(255, 0, 0);
+    opacity: 1;
+    transform: translate(-50%, -50%);
+
+    /* background-color: white;
+    position: absolute;
+
+    /*  border-radios gibt einem Element abgerundete Ecken.
+    Diese können z. B. als Pixel oder in % angegeben werden.
+    50% entspricht hier 50% von 20px an jeder Ecke.
+    -> Radius von 10px bei 20x20px -> Kreis */
+    /* border-radius: 50%; */
 }
 
-.overview-circle-unter.hover {
-    background-color: #6B7C8D;
-    opacity: 0.2;
-    z-index: 1001;
+.indicator {
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    pointer-events: auto; /* Nur die Linie reagiert */
+    /* transform: translate(-50%, -50%); */
+
+    /* background-color: white;
+    position: absolute;
+
+    /*  border-radios gibt einem Element abgerundete Ecken.
+    Diese können z. B. als Pixel oder in % angegeben werden.
+    50% entspricht hier 50% von 20px an jeder Ecke.
+    -> Radius von 10px bei 20x20px -> Kreis */
+    /* border-radius: 50%; */
 }

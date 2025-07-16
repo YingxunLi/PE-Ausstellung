@@ -37,8 +37,11 @@ body {
 .dot {
   position: absolute;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
+  /* width: clamp(2px, 0.4vw, 8px);
+  height: clamp(2px, 0.4vw, 8px); */
+
   transition: transform 0.2s;
   pointer-events: none;
   z-index: 30; /* Ohne das verschwinden die Punkte */
@@ -57,10 +60,14 @@ body {
 /* Typografie & Panels */
 /* =================== */
 .title-heading {
-  font-size: clamp(2em, 5vw, 6.2em);
+  /* font-size: clamp(2em, 5vw, 6.2em); */
+    font-size: clamp(0.8rem, 4vw, 2rem);
+
   font-weight: 300;
-  margin-left: 4vw;
-  margin-top: 3vw;
+  /* margin-left: 4vw;
+  margin-top: 3vw; */
+    margin-left: clamp(2vw, 4vw, 6vw);
+  margin-top: clamp(1vh, 3vw, 4vh);
 }
 
 /* ========================= */
@@ -128,12 +135,20 @@ body {
 .control-box {
   position: absolute;
   bottom: 64%;
-  left: 4vw;
-  border-radius: 16px;
-  font-size: 2em;
+  /* left: 4vw; */
+    left: clamp(2vw, 4vw, 6vw);
+
+  /* border-radius: 16px; */
+    border-radius: calc(0.8vw + 4px);
+
+  /* font-size: 2em; */
+    font-size: clamp(0.6rem, 1.2vw, 1.5rem);
+
   display: inline-block;
   line-height: 1.3;
-  max-width: 700px;
+  /* max-width: 700px; */
+    max-width: clamp(200px, 35vw, 500px);
+
   z-index: 1001;
 }
 
@@ -143,18 +158,24 @@ input[type="radio"] {
 }
 
 .group-section label {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+    font-size: clamp(0.5rem, 1vw, 1.2rem);
+
   color: #474747;
   cursor: pointer;
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+    margin-bottom: clamp(4px, 0.8vh, 12px);
+
   transition: color 0.2s ease;
 }
 
 
 
 .ring-section {
-  margin-bottom: 2.9em; /* Abstand zwischen Farb- und Ringgruppe */
+  /* margin-bottom: 2.9em;  */
+    margin-bottom: clamp(0.5em, 2vh, 2em);
+
 }
 
 
@@ -167,17 +188,22 @@ input[type="radio"]:checked + label {
 #info-box {
   position: absolute;
   top: 39%;
-  left: 4vw;
+  /* left: 4vw; */
+  left: clamp(2vw, 4vw, 6vw);
 
   color: #959595;
-  font-size: clamp(1.4em, 3vw, 3em);
+  /* font-size: clamp(1.4em, 3vw, 3em); */
+  font-size: clamp(0.6rem, 1.2vw, 1.5rem);
+
   font-weight: 300;
   white-space: pre-line;
   line-height: 1.65;
   text-align: left;
   z-index: 9999;
   display: none;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+    border-radius: calc(1vw + 8px);
+
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
