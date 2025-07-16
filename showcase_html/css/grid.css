@@ -329,7 +329,8 @@ a.gridder-nav.prev:before {
 object,
 iframe {
 	width: 100%;
-	height: 900px;
+	/* height: 900px; */
+	height: 100vh; /* Adjusted to fill the viewport height */
 	display: block;
 	position: relative;
 	box-sizing: border-box;
