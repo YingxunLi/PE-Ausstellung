@@ -2,12 +2,16 @@ body {
   margin: 0;
   background: #111;
   overflow: hidden;
+  width: 100vw; 
+  height: 100vh; 
 }
 
 #heatmap {
   position: relative;
-  width: 1512px;
-  height: 945px;
+  /* width: 1512px;
+  height: 945px; */
+  width: 100vw; 
+  height: 100vh; 
   background: #000;
   cursor: crosshair;
 }
@@ -228,8 +232,10 @@ body > h1 {
 
 .bar-chart-container {
   display: flex;
-  width: 1512px;
-  height: 945px;
+  /* width: 1512px;
+  height: 945px; */
+  width: 100vw; 
+  height: 100vh; 
   justify-content: flex-start;
   align-items: center;
   gap: 0;
@@ -524,11 +530,11 @@ body > h1 {
   font-weight: 800;
 }
 
-body > h1, h2, span, .legend-text, .screen-switch, .tooltip, .country-bar-label, .country-bar-name, .country-bar-count, .target-bar-country, .target-bar-count, #legend-weight, #legend-attacks, #country-menu h2, #country-list, .fixed-hover-text, .target-bar-label {
+/* body > h1, h2, span, .legend-text, .screen-switch, .tooltip, .country-bar-label, .country-bar-name, .country-bar-count, .target-bar-country, .target-bar-count, #legend-weight, #legend-attacks, #country-menu h2, #country-list, .fixed-hover-text, .target-bar-label {
   color: transparent !important;
   visibility: hidden !important;
 }
 
 #country-menu h2, #country-list, .fixed-hover-text, .tooltip, .legend-row, .legend-text, .screen-switch, .country-bar-label, .country-bar-name, .country-bar-count, .target-bar-country, .target-bar-count, .target-bar-label {
   display: none !important;
-}
+} */
